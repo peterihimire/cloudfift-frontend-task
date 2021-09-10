@@ -1,0 +1,99 @@
+.navbar-main-links {
+  display: flex;
+  align-items: center;
+  display: none;
+}
+
+.navbar-btn-icon {
+  font-size: 2rem;
+  color: var(--main-black);
+}
+.navbar-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+  list-style: none;
+}
+.navbar-links a {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: var(--main-black);
+  transition: var(--mainTransition);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  text-align: left;
+}
+/* FOR THE SIGN-OUT BUTTON COLOR CHANGE */
+.navbar-signout {
+  display: block;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: var(--main-white);
+  transition: var(--mainTransition);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  letter-spacing: var(--mainSpacing);
+  text-align: left;
+  background: none;
+  box-shadow: var(--main-shadow);
+  border: none;
+}
+
+.navbar-signout-color{
+  color: var(--main-black) !important;
+}
+/* LAPTOP */
+@media (min-width: 993px) {
+  .navbar-links {
+    height: auto;
+    display: flex;
+  }
+  .navbar-links a {
+    margin: 0 2rem;
+    padding: 0.5rem 0;
+    color: var(--main-white) ;
+  }
+  .navbar-single-color {
+    color: var(--main-black) !important;
+  }
+  .navbar-main-links {
+    display: flex;
+    align-items: center;
+  }
+  .make-payment-link {
+    padding: 0 3rem;
+  }
+  .navbar-links-getstarted {
+    margin: 0 0 0 4rem;
+  }
+  .navbar-links-getstarted a {
+    font-size: 1.3rem;
+  }
+  .navbar-links-buttons {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+  .navbar-item-button a {
+    color: var(--main-white);
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+}
+/* IPHONE */
+@media (max-width: 600px) {
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .make-payment-link {
+    /* padding: 0 0rem; */
+  }
+}
+/* IPAD */
+@media (max-width: 992px) {
+  .make-payment-link {
+    padding: 0 0rem;
+  }
+}

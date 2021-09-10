@@ -1,13 +1,247 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* LATO FONT */
+@font-face {
+  font-family: "lato";
+  src: local("lato"), url("./fonts/lato/Lato-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "lato-bold";
+  src: local("lato"), url("./fonts/lato/Lato-Bold.ttf") format("truetype");
+}
+/* TRUENO */
+@font-face {
+  font-family: "trueno";
+  src: local("trueno"), url("./fonts/trueno/TruenoRg.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "trueno-bold";
+  src: local("trueno"), url("./fonts/trueno/TruenoBd.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "trueno-extra-bold";
+  src: local("trueno"), url("./fonts/trueno/TruenoExBd.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "trueno-lite";
+  src: local("trueno"), url("./fonts/trueno/TruenoLt.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+:root {
+  font-size: 62.5%;
+  --main-grey: #9B9B9B;
+  --dark-green: #06942A;
+  --light-green: #06942A33;
+  --main-white: #fff;
+  --main-black:  #3F403F;
+  
+  --main-spacing: 0.2rem;
+  --line-height: 1.4;
+
+  --large-font: 5rem;
+  --medium-large: 4rem;
+  --medium-font: 2.5rem;
+  --small-font: 2rem;
+  --xsmall-font: 1.5rem;
+
+  --main-shadow: 0px 10px 30px rgba(6, 148, 42, 0.05);
+  --main-transition: all 0.5s linear;
+
+  --font: "lato", sans-serif;
+  --font-bold: "lato-bold", sans-serif;
+
+  --sec-font: "trueno", sans-serif;
+  --sec-font-bold: "trueno-bold", sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--vasiti-black);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(6, 31, 53, 0.7);
+}
+
+body {
+  font-family: var(--font);
+  background: var(--main-white);
+  overflow-x: hidden;
+  color: var(--main-black);
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--sec-font-bold);
+  letter-spacing: -1px;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+p {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.pad0 {
+  padding: 0 !important;
+}
+.hidden {
+  display: none;
+}
+.rel {
+  position: relative;
+}
+.abs {
+  position: absolute;
+}
+.text-justify {
+  text-align: justify;
+}
+.full-width {
+  width: 100%;
+}
+.full-height {
+  height: 100%;
+}
+.hidden-xs {
+  display: block;
+}
+.visible-xs {
+  display: none;
+}
+.flex-div {
+  display: flex;
+}
+.mag-0 {
+  margin: 0 !important;
+}
+.mag-bottom-0 {
+  margin-bottom: 0 !important;
+}
+.mag-top-0 {
+  margin-top: 0 !important;
+}
+.fg-1 {
+  flex-grow: 1;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.center-sm {
+  text-align: center;
+}
+.btn {
+  background-color: var(--primary-color) !important;
+  color: var(--main-white) !important;
+  text-transform: uppercase !important;
+  box-shadow: none !important;
+  width: 100px;
+  /* padding: 0 0 !important; */
+  font-size: 1.2rem !important;
+  height: 38px !important;
+  line-height: 38px !important;
+  border: none !important;
+  border-radius: 5px;
+}
+.btn a {
+  color: var(--main-white) !important;
+  text-decoration: none;
+}
+.btn-bigger {
+  height: 44px !important;
+  line-height: 44px !important;
+  padding: 0 0rem !important;
+  width: 160px;
+}
+.btn:disabled,
+.btn:hover:disabled,
+.btn:active:disabled {
+  background: #ccc !important;
+  color: #979797 !important;
+  border-color: #ccc !important;
+  cursor: not-allowed !important;
+}
+
+/***** DESKTOP *****/
+@media only screen and (min-width: 1201px) {
+}
+/***** LAPTOP *****/
+@media (min-width: 993px) {
+  .container {
+    width: 80% !important;
+  }
+  .hidden-xl {
+    display: none;
+  }
+
+  .hidden-md {
+    display: none;
+    /* visibility: hidden; */
+  }
+  .hidden-xs {
+    display: none !important;
+  }
+  .visible-xl {
+    display: block !important;
+  }
+}
+/***** iPAD *****/
+@media (max-width: 992px) {
+  .btn-full-width {
+    width: 100%;
+  }
+  .hidden-md {
+    display: none;
+  }
+  .visible-md {
+    display: block !important;
+  }
+}
+/***** iPHONE *****/
+@media (max-width: 600px) {
+  .hidden-xs {
+    display: none !important;
+  }
+  .visible-xs {
+    display: block !important;
+  }
+  .hidden-md {
+    display: none;
+  }
+  .btn-full-width {
+    width: 100%;
+  }
 }
