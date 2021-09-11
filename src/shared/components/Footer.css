@@ -7,6 +7,10 @@ footer {
   ); */
   color: var(--main-black);
 }
+.footer-one {
+  border-top: solid 1px var(--main-grey);
+  padding: 5rem 0;
+}
 footer .footer-logo {
   padding: 2rem 0 0 0rem;
   font-size: 2rem;

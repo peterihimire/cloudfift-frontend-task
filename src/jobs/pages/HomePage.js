@@ -2,11 +2,12 @@ import React from "react";
 import Footer from "../../shared/components/Footer";
 import Navbar from "../../shared/components/navigation/Navbar";
 import Banner from "../../shared/components/Banner";
-// import HomeAbout from "../../properties/components/HomeAbout";
+import HomeAbout from "../components/HomeAbout";
 import HomeRecent from "../components/HomeRecent";
-// import HomeHow from "../../properties/components/HomeHow";
+import HomeHow from "../components/HomeHow";
 import HomeTestimonials from "../components/HomeTestimonials";
-// import HomePopularCities from "../../properties/components/HomePopularCities";
+import ImageContainer from "../components/ImageContainer";
+import CompaniesNetwork from "../components/CompaniesNetwork";
 
 const HomePage = (props) => {
   console.log(props);
@@ -19,11 +20,11 @@ const HomePage = (props) => {
         <HomeRecent />
         <div className="main-content">
           <div className="main-content-container">
-            {/* <HomeAbout />
+            <HomeAbout />
             <HomeHow />
-            <HomePopularCities /> */}
-
+            <CompaniesNetwork />
             <HomeTestimonials />
+            <ImageContainer />
           </div>
         </div>
       </div>

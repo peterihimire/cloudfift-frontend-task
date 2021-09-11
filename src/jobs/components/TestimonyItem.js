@@ -1,13 +1,13 @@
 import React from "react";
 import "./TestimonyItem.css";
-import Card from "../../shared/components/uielements/Card";
+// import Card from "../../shared/components/uielements/Card";
 
 const TestimonyItem = (props) => {
   console.log(props);
   const { testimonials } = props;
   console.log(testimonials);
   return (
-    <Card className="testimonials-card">
+    // <Card className="testimonials-card">
       <div className="testimonials-content">
         <div className="testimonials-img">
           <img src={testimonials.image} alt="people" />
@@ -19,7 +19,7 @@ const TestimonyItem = (props) => {
           </div>
         </div>
       </div>
-    </Card>
+    // </Card>
   );
 };
 

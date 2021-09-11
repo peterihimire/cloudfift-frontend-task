@@ -1,0 +1,99 @@
+.group-about {
+  padding: 5rem 0;
+  background: var(--lite-green) !important;
+}
+
+.group-about-content {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 4rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background: var(--lite-green) !important; */
+}
+.home-about-img-container {
+  width: 100%;
+}
+.home-about-img-container img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.home-about-text-container {
+  width: 100%;
+  /* margin: 2rem 0 0 0rem; */
+  /* text-align: center; */
+}
+.home-about-text-container p {
+  padding: 0 0 2rem 0;
+}
+.home-about-title {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto 4rem auto;
+}
+.home-about-title h2 {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-size: 3rem;
+  padding: 0 0 2rem 0;
+}
+.home-about-title h4 {
+  color: var(--dark-grey);
+  text-transform: uppercase;
+  font-size: var(--medium-font);
+}
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .group-about-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .home-about-img-container {
+    width: 100%;
+  }
+  .home-about-img-container img {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .home-about-text-container {
+    width: 100%;
+    margin: 0 0 0 4rem;
+  }
+}
+/* LAPTOP */
+@media (min-width: 993px) {
+  .group-about-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .home-about-img-container {
+    width: 100%;
+  }
+  .home-about-img-container img {
+    width: 100%;
+    border-radius: 25px;
+  }
+
+  .home-about-text-container {
+    width: 100%;
+    margin: 0 0 0 8rem;
+  }
+  .home-about-title {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto 4rem auto;
+  }
+}

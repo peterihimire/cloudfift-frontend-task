@@ -14,12 +14,12 @@
   margin: 0.5rem 0 0 0;
 }
 
-.testimonials-content {
+/* .testimonials-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .testimony-chev {
   margin: 0 0.2rem;
@@ -40,13 +40,13 @@
     width: 400px;
     margin: 0 auto 3rem auto;
   }
-  .testimonials-content {
+  /* .testimonials-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-  }
+  } */
   .home-slider-container {
     width: 98%;
     margin: 7rem auto 0 auto;
@@ -62,18 +62,18 @@
     width: 500px;
     margin: 0 auto 3rem auto;
   }
-  .testimonials-content {
+  /* .testimonials-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 1rem;
-  }
+  } */
   .home-slider-container {
     width: 100%;
     margin: 8rem auto 0 auto;
   }
   .slick-btn-container {
-    margin: 1rem 33rem 0 0;
+    margin: 1rem 13rem 0 0;
   }
 }

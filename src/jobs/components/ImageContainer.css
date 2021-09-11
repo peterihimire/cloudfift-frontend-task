@@ -1,0 +1,6 @@
+.image-container-lady {
+  height: 40vh;
+  background: url("../../assets/lady-smile-rec.svg") center/cover no-repeat;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}

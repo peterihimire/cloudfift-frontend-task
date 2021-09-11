@@ -61,14 +61,6 @@ class HomeTestimonials extends Component {
           </h4>
         </div>
         <div className="home-slider-container">
-          <Slider ref={(c) => (this.slider = c)} {...settings}>
-            {testimonies.map((testimony) => {
-              console.log(testimony);
-              return (
-                <TestimonyItem key={testimony.id} testimonials={testimony} />
-              );
-            })}
-          </Slider>
           <div className="slick-btn-container" style={{ textAlign: "right" }}>
             <button className="chev-btn testimony-chev" onClick={this.previous}>
               <FaChevronLeft className="arrow-icon" />
@@ -77,6 +69,14 @@ class HomeTestimonials extends Component {
               <FaChevronRight className="arrow-icon" />
             </button>
           </div>
+          <Slider ref={(c) => (this.slider = c)} {...settings}>
+            {testimonies.map((testimony) => {
+              console.log(testimony);
+              return (
+                <TestimonyItem key={testimony.id} testimonials={testimony} />
+              );
+            })}
+          </Slider>
         </div>
       </div>
     );
