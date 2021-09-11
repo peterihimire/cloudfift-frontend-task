@@ -1,12 +1,12 @@
 import React from "react";
-import "./PropertyItem.css";
+import "./JobItem.css";
 import Card from "../../shared/components/uielements/Card";
-import "./PropertyItem.css";
+import "./JobItem.css";
 import { Link } from "react-router-dom";
 import { FaBed, FaBath, FaInfo, FaTrash, FaMapMarker } from "react-icons/fa";
 // import imgProperty from "../../assets/property-1.jpg";
 
-const PropertyItem = (props) => {
+const JobItem = (props) => {
   const { properties } = props;
   console.log(props);
   console.log(properties);
@@ -68,4 +68,4 @@ const PropertyItem = (props) => {
   );
 };
 
-export default PropertyItem;
+export default JobItem;

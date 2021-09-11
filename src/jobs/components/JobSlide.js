@@ -1,11 +1,11 @@
 import React from "react";
-import "./PropertySlide.css";
+import "./JobSlide.css";
 import ItemsCarousel from "react-items-carousel";
-import PropertyItem from "../components/PropertyItem";
+import JobItem from "./JobItem";
 import properties from "../../property-items";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
-const PropertySlide = () => {
+const JobSlide = () => {
   console.log(properties);
   const [activeItemIndex, setActiveItemIndex] = React.useState(0);
   const chevronWidth = 0;
@@ -51,7 +51,7 @@ const PropertySlide = () => {
                 {properties.map((property) => {
                   return (
                     <div className="one-slide">
-                      <PropertyItem properties={property} key={property.id} />
+                      <JobItem properties={property} key={property.id} />
                     </div>
                   );
                 })}
@@ -78,7 +78,7 @@ const PropertySlide = () => {
                 {properties.map((property) => {
                   return (
                     <div className="one-slide" key={property.id}>
-                      <PropertyItem properties={property} key={property.id} />
+                      <JobItem properties={property} key={property.id} />
                     </div>
                   );
                 })}
@@ -105,7 +105,7 @@ const PropertySlide = () => {
                 {properties.map((property) => {
                   return (
                     <div className="one-slide">
-                      <PropertyItem properties={property} key={property.id} />
+                      <JobItem properties={property} key={property.id} />
                     </div>
                   );
                 })}
@@ -118,4 +118,4 @@ const PropertySlide = () => {
   );
 };
 
-export default PropertySlide;
+export default JobSlide;

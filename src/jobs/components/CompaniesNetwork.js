@@ -2,7 +2,7 @@ import React from "react";
 import "./CompaniesNetwork.css";
 import homeImg from "../../assets/group-of-companies.svg";
 
-const HomeAbout = () => {
+const CompaniesNetwork = () => {
   return (
     <div className="group-about">
       <div className="group-about-content">
@@ -31,4 +31,4 @@ const HomeAbout = () => {
   );
 };
 
-export default HomeAbout;
+export default CompaniesNetwork;

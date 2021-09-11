@@ -1,13 +1,13 @@
 import React from "react";
-import Footer from "../../shared/components/Footer";
 import Navbar from "../../shared/components/navigation/Navbar";
 import Banner from "../../shared/components/Banner";
-import HomeAbout from "../components/HomeAbout";
-import HomeRecent from "../components/HomeRecent";
-import HomeHow from "../components/HomeHow";
-import HomeTestimonials from "../components/HomeTestimonials";
-import ImageContainer from "../components/ImageContainer";
+import RecommendedJobs from "../components/RecommendedJobs";
+import HowItWorks from "../components/HowItWorks";
+import PopularCategories from "../components/PopularCategories";
 import CompaniesNetwork from "../components/CompaniesNetwork";
+import Testimonials from "../components/Testimonials";
+import GetStarted from "../components/GetStarted";
+import Footer from "../../shared/components/Footer";
 
 const HomePage = (props) => {
   console.log(props);
@@ -17,14 +17,14 @@ const HomePage = (props) => {
       <div id="content-wrapper">
         <Navbar />
         <Banner />
-        <HomeRecent />
+        <RecommendedJobs />
         <div className="main-content">
           <div className="main-content-container">
-            <HomeAbout />
-            <HomeHow />
+            <HowItWorks />
+            <PopularCategories />
             <CompaniesNetwork />
-            <HomeTestimonials />
-            <ImageContainer />
+            <Testimonials />
+            <GetStarted />
           </div>
         </div>
       </div>
