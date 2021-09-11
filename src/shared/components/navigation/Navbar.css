@@ -33,14 +33,18 @@
   padding: 0 !important;
   outline: none;
 }
-.navbar-logo-div {
+/* .navbar-logo-div {
   margin: 0 0 0 3rem;
-}
+} */
 .navbar-logo {
-  font-size: 2rem;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: var(--primary-color) !important;
+  /* font-size: 2rem; */
+  /* text-decoration: none; */
+  /* text-transform: uppercase; */
+  /* color: var(--primary-color) !important; */
+}
+.logo-icon {
+  /* width: 60%; */
+
 }
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -64,7 +68,8 @@
     left: 0;
     width: 100%;
     /* background: none !important; */
-    background-color: transparent;
+    /* background-color: transparent; */
+    /* background-color: green; */
     color: var(--main-white);
     /* box-shadow: var(--main-shadow); */
     z-index: 3;
@@ -88,7 +93,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 4rem 0rem;
+    /* padding: 1rem 0rem; */
     transition: all 1s ease;
   }
   /* reduce the padding upon a particular scroll position */

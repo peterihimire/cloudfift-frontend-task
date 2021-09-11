@@ -1,0 +1,88 @@
+import imgProperty from "../src/assets/google-logo.svg";
+
+let PROPERTY;
+
+PROPERTY = [
+  {
+    id: 1,
+    name: "3 Bedroom Bungalow",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Abuja",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 2,
+    name: "4 Bedroom duplex",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Ikeja",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 3,
+    name: "7 Bedroom Deplex",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Ikeja",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 4,
+    name: "2 Bedroom Semi-detached Duplex",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Abuja",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 5,
+    name: "3 Bedroom Flat",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Ikoyi",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 6,
+    name: "4 Bedroom Semi-detached Duplex",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Lekki",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 7,
+    name: "2 Bedroom Duplex",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Ikoyi",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+  {
+    id: 8,
+    name: "3 Bedroom Duplex",
+    amount: 50,
+    bathrooms: 2,
+    bedrooms: 4,
+    location: "Lekki",
+    description: "Find our taxis near you for affordable interstate transports",
+    image: imgProperty,
+  },
+];
+
+export default PROPERTY;

@@ -2,7 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import NavLinks from "../../../shared/components/navigation/NavLinks";
-import MenuIcon from '../../../assets/menu-icon.svg'
+import MenuIcon from "../../../assets/menu-icon.svg";
+import LogoIcon from "../../../assets/logo.svg";
 // import Backdrop from "../UIElements/Backdrop";
 // import SideDrawer from "../../components/Navigation/SideDrawer";
 // import NavLinksMob from "../Navigation/NavLinksMob";
@@ -45,11 +46,9 @@ const Navbar = (props) => {
       <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
         <NavLinksMob />
       </SideDrawer> */}
-      <nav className={ "navbar"}>
+      <nav className={"navbar"}>
         <div className="navbar-container">
-          <div
-            className={ "navbar-main"}
-          >
+          <div className={"navbar-main"}>
             <div className="navbar-head">
               <button
                 className="navbar-btn"
@@ -60,13 +59,11 @@ const Navbar = (props) => {
               </button>
               <div className="navbar-logo-div">
                 <Link to="/" className="navbar-logo">
-                  <strong>
-                    bnk<span>-homes</span>
-                  </strong>
+                  <img src={LogoIcon} alt="logo" className="logo-icon" />
                 </Link>
               </div>
             </div>
-            <NavLinks  />
+            <NavLinks />
           </div>
         </div>
       </nav>

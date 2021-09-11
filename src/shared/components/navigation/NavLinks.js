@@ -52,7 +52,7 @@ const NavLinks = (props) => {
               className={"navbar-single-link"}
               to="/"
             >
-              companies
+              Companies
             </NavLink>
           </li>
 
@@ -62,7 +62,7 @@ const NavLinks = (props) => {
               className={"navbar-single-link"}
               to="/profile"
             >
-              candidate
+              Candidate
             </NavLink>
           </li>
 
@@ -72,7 +72,7 @@ const NavLinks = (props) => {
               className={"navbar-single-link"}
               to="/properties"
             >
-              assessment
+              Assessment
             </NavLink>
           </li>
           <li className="navbar-item">
@@ -81,7 +81,7 @@ const NavLinks = (props) => {
               className={"navbar-single-link"}
               to="/about"
             >
-              post a job
+              Post a Job
             </NavLink>
           </li>
           <li className="navbar-item">
@@ -90,7 +90,7 @@ const NavLinks = (props) => {
               className={"navbar-single-link"}
               to="/about"
             >
-              career advice
+              Career Advice
             </NavLink>
           </li>
         </ul>
@@ -122,13 +122,13 @@ const NavLinks = (props) => {
               className={"navbar-single-link"}
               to="/login"
             >
-              sign up
+              Sign Up
             </NavLink>
           </div>
 
           <div className="navbar-links-getstarted">
             <Link to="/register">
-              <button className="btn">login</button>
+              <button className="btn btn-bigger">Log In</button>
             </Link>
           </div>
         </div>
