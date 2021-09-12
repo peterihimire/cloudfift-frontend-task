@@ -15,7 +15,9 @@ const Banner = () => {
       <div className="banner-container">
         <div className="banner-content">
           <div className="banner-left">
-            <h1>Find a job easily</h1>
+            <h1>
+              Find a <span>job</span> easily
+            </h1>
             <p>
               With verified, up-to-date job listings directly from employer
               websites, we create a premium experience for job seekers,
@@ -24,7 +26,7 @@ const Banner = () => {
             <div className="form-div">
               <form>
                 <div className="form-group">
-                  <div className="input-with-icon">
+                  <div className="input-no-icon">
                     <input
                       type="text"
                       placeholder="Enter keywords,skill,interest"
@@ -33,7 +35,6 @@ const Banner = () => {
                     />
                   </div>
                   <div className="input-with-icon">
-                    {/* <i className="fas fa-key"></i> */}
                     <img src={locationIcon} alt=" " className="location-icon" />
                     <input
                       type="text"
@@ -41,10 +42,8 @@ const Banner = () => {
                       id="password"
                       name="password"
                     />
-                    {/* <i className="fas fa-eye"></i> */}
-                    {/* <FaSearch className="search-icon" /> */}
                   </div>
-                  <button>
+                  <button className="banner-search-btn">
                     <img src={searchIcon} alt="" />
                   </button>
                 </div>
