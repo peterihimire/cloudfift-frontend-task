@@ -90,6 +90,6 @@
     left: 90px;
   }
   .testimony-main-text {
-    width: 600px;
+    width: 600px !important;
   }
 }

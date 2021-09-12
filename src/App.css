@@ -13,6 +13,10 @@
 .main-content {
   padding: 0 2rem;
 }
+.companies-network-main-content {
+  padding: 0 2rem;
+  background-color: var(--xlite-green);
+}
 /****** MAKES SURE APP DONT TAKE UP THE CONTAINER FULL WIDTH ******/
 .main-content-container {
   max-width: 117rem;

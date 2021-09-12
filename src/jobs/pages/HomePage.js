@@ -22,7 +22,15 @@ const HomePage = (props) => {
           <div className="main-content-container">
             <HowItWorks />
             <PopularCategories />
+          </div>
+        </div>
+        <div className="companies-network-main-content">
+          <div className="main-content-container">
             <CompaniesNetwork />
+          </div>
+        </div>
+        <div className="main-content">
+          <div className="main-content-container">
             <Testimonials />
             <GetStarted />
           </div>

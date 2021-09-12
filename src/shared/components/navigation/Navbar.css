@@ -42,7 +42,7 @@
 .logo-icon {
   /* width: 60%; */
 }
-/* TABLET */
+/***** TABLET *****/
 @media screen and (min-width: 768px) {
   .navbar {
     position: fixed;
@@ -59,7 +59,7 @@
     width: 100%;
   }
 }
-/* LAPTOP */
+/***** LAPTOP *****/
 @media (min-width: 993px) {
   .navbar {
     position: fixed;
