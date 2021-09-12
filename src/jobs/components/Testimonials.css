@@ -1,5 +1,5 @@
 .testimonials {
-  padding: 4rem 0;
+  margin-bottom: 15rem;
 }
 .testimonials-head {
   text-align: center;
@@ -13,13 +13,9 @@
 .slick-btn-container {
   margin: 0.5rem 0 0 0;
 }
-
-/* .testimonials-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
+.testimonials-title {
+  width: 100%;
+}
 
 .testimony-chev {
   margin: 0 0.2rem;
@@ -40,13 +36,9 @@
     width: 400px;
     margin: 0 auto 3rem auto;
   }
-  /* .testimonials-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  } */
+  .testimonials-title {
+    width: 500px;
+  }
   .testimonial-slider-container {
     width: 98%;
     margin: 7rem auto 0 auto;
@@ -62,16 +54,12 @@
     width: 500px;
     margin: 0 auto 3rem auto;
   }
-  /* .testimonials-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-  } */
+  .testimonials-title {
+    width: 500px;
+  }
   .testimonial-slider-container {
     width: 100%;
-    margin: 8rem auto 0 auto;
+    margin: 2rem auto 0 auto;
   }
   .slick-btn-container {
     margin: 1rem 13rem 0 0;

@@ -3,11 +3,34 @@
   align-items: center;
   /* flex-direction: row !important ; */
 }
-
+.testimony-main-text {
+  width: 600px;
+}
+.testimony-role{
+  color: var(--main-grey);
+}
+.testimony-main-text p {
+  line-height: var(--line-height);
+  font-size: 15px;
+}
+.testimony-name {
+  padding: 3rem 0 2rem 0;
+}
+.testimony-name p {
+  font-weight: bolder;
+}
 .testimony-content p {
   /* text-align: center; */
 }
-
+.quote-div {
+  position: absolute;
+  top: -140px;
+}
+.testimony-main-div {
+  position: absolute;
+  top: -100px;
+  left: 90px;
+}
 .testimony-content .testimony-b {
   /* text-align: right; */
 }
@@ -19,7 +42,8 @@
   /* width: 150px; */
 }
 .testimony-content-text {
-  padding: 0 2rem 2rem 2rem;
+  padding: 0 2rem 2rem 8rem;
+  position: relative;
 }
 .testimony-card {
   width: 97%;

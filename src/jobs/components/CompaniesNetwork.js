@@ -1,26 +1,33 @@
 import React from "react";
 import "./CompaniesNetwork.css";
+import { Link } from "react-router-dom";
 import homeImg from "../../assets/group-of-companies.svg";
+import { FaArrowRight } from "react-icons/fa";
 
 const CompaniesNetwork = () => {
   return (
     <div className="companies-network">
       <div className="companies-network-content">
         <div className="companies-network-text-container">
+          <div className="title">
+            <h4>Over 1000+ jobs from top companies in our network</h4>
+          </div>
           <p>
-            When the time to invest on home comes dont fail to invest with
-            bnk-homes and real-estate. we offer competitive home price offer and
-            sales that you will always find attractive. Hurry up now and grab
-            your best offer now.
+            Every day we index millions of jobs directly from employer websites.
+            We’re committed to accurate, high-quality jobs so you won’t find
+            old, duplicated, or spammy listings here.
           </p>
           <p>
-            Our homes and real-estate are located in various part of Nigeria,
-            from Benin, Lagos , Imo , Port-Harcourt and Abuja. And they are
-            located in the urban and sub-urban areas of the state. Places youll
-            always fall in love with once you see it .
+            Organize and automate your job search while at home or on the go.
+            We’ll deliver new, relevant jobs of interest straight to your inbox.
           </p>
           <div className="">
-            <button className="btn btn-bigger">learn more</button>
+            <Link to="/" className="learn-more">
+              learn more{" "}
+              <span>
+                <FaArrowRight />
+              </span>
+            </Link>
           </div>
         </div>
         <div className="companies-network-img-container">

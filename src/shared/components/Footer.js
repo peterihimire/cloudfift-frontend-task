@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
-// import { Link } from "react-router-dom";
+import logoAlt from "../../assets/logo-alt.svg";
+import twitter from "../../assets/Twitter-green.svg";
 
 const Footer = () => {
   return (
@@ -8,10 +9,21 @@ const Footer = () => {
       <div className="footer-wrapper">
         <div className="footer-one">
           <div className="footer-item">
-            <h4>information</h4>
+            <div className="footer-logo">
+              <img src={logoAlt} alt="" />
+            </div>
+            <div className="footer-text">
+              <p>
+                Getajobng provides a full online service for anyone looking for
+                a new job. We're not a recruitment agency, we're a job site.
+              </p>
+            </div>
+          </div>
+          <div className="footer-item">
+            <h5>information</h5>
             <ul>
               <li>
-                <a href="/">Become a Driver</a>
+                <a href="/">About us</a>
               </li>
               <li>
                 <a href="/">Earnings</a>
@@ -22,21 +34,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-item">
-            <h4>information</h4>
-            <ul>
-              <li>
-                <a href="/">Become a Driver</a>
-              </li>
-              <li>
-                <a href="/">Earnings</a>
-              </li>
-              <li>
-                <a href="/">Cities</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-item">
-            <h4>job seekers</h4>
+            <h5>job seekers</h5>
             <ul>
               <li>
                 <a href="/">Sign up to ride</a>
@@ -50,7 +48,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="footer-item">
-            <h4>employers</h4>
+            <h5>employers</h5>
             <ul>
               <li>
                 <a href="/">Careers</a>
@@ -65,24 +63,21 @@ const Footer = () => {
           </div>
 
           <div className="footer-item">
-            <h4>social media</h4>
-            <ul>
-              <div className="rider-lyft-app-div">
-                <div className="rider-lyft-app">
-                  {/* <a href="/">Lyft driver app</a> */}
-                </div>
+            <h5>social media</h5>
+            <div className="footer-social-div">
+              <div className="footer-social">
+                <img src={twitter} alt="" />
               </div>
-              <div className="rider-lyft-app-div">
-                <div className="rider-lyft-app">
-                  {/* <a href="/">Lyft rider app</a> */}
-                </div>
+              <div className="footer-social">
+                <img src={twitter} alt="" />
               </div>
-              <div className="rider-lyft-app-div">
-                <div className="rider-lyft-app">
-                  {/* <a href="/">Ride on web</a> */}
-                </div>
+              <div className="footer-social">
+                <img src={twitter} alt="" />
               </div>
-            </ul>
+              <div className="footer-social">
+                <img src={twitter} alt="" />
+              </div>
+            </div>
           </div>
         </div>
 

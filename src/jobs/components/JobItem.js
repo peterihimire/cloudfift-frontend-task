@@ -2,9 +2,8 @@ import React from "react";
 import "./JobItem.css";
 import Card from "../../shared/components/uielements/Card";
 import "./JobItem.css";
-// import { Link } from "react-router-dom";
-// import { FaBed, FaBath, FaInfo, FaTrash, FaMapMarker } from "react-icons/fa";
-// import imgProperty from "../../assets/property-1.jpg";
+import { Link } from "react-router-dom";
+import locationIcon from "../../assets/location-icon.svg";
 
 const JobItem = (props) => {
   const { jobs } = props;
@@ -22,17 +21,26 @@ const JobItem = (props) => {
             <img src={jobs.image} alt="home" />
           </div>
           <div>
-            <div>{jobs.role}</div>
+            <div>
+              <b>{jobs.role}</b>
+            </div>
           </div>
         </div>
         <div className="job-item-lower">
           <div>
-            <div>{jobs.company}</div>
+            <b>{jobs.company}</b>
           </div>
           <div className="job-item-action">
-            <div>{jobs.location}</div>
+            <div className="location-icon-text">
+              <span>
+                <img src={locationIcon} alt="" />
+              </span>
+              <span>{jobs.location}</span>
+            </div>
             <div>
-              <button>apply</button>
+              <Link to="/" className="job-apply-link">
+                Apply now
+              </Link>
             </div>
           </div>
         </div>

@@ -1,8 +1,13 @@
 .popular {
-  padding: 4rem 0;
+  margin-bottom: 15rem;
 }
 .home-how-title {
   width: 100%;
+}
+.popular-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .popular-title h4 {
   font-size: var(--medium-font);
@@ -13,8 +18,8 @@
   margin: 4rem 0 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-row-gap: 3rem;
-  grid-column-gap: 3rem;
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
 }
 .popular-content {
   display: flex;
@@ -23,13 +28,16 @@
   align-items: center;
   padding: 0 2rem;
   margin: 0 0 2rem 0;
+  height: 250px;
+  border: solid 1px var(--sec-grey);
+  border-radius: 10px;
 }
 .popular-content {
   text-align: center;
 }
 .popular-logo {
-  padding: 2rem;
-  background-color: var(--lite-green);
+  /* padding: 2rem; */
+  /* background-color: var(--lite-green); */
   border-radius: 4px;
 }
 .popular-icon {
@@ -40,12 +48,15 @@
   margin: 2rem 0 0 0;
 }
 .popular-text h5 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: var(--dark-grey);
   font-size: var(--xsmall-font);
   padding: 0 0 1rem 0;
 }
-
+.popular-text p {
+  color: var(--main-grey);
+  font-size: var(--xsmall-font);
+}
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
   .popular-title {

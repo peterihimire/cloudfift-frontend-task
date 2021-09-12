@@ -11,7 +11,9 @@ const RecommendedJobs = () => {
       <div className="recent-flex-start">
         <h4>recently added properties</h4>
       </div> */}
-
+      <div className="title recommended-title-container">
+        <h4>Recommended Jobs</h4>
+      </div>
       <div className="">
         {/* <div className="more-flex-end">
           <Link to="/properties">

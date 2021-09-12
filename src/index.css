@@ -35,8 +35,11 @@
 :root {
   font-size: 62.5%;
   --main-grey: #9b9b9b;
+  --sec-grey: #e5e5e5;
+  --lite-grey: #f4f5f9;
   --dark-green: #06942a;
   --lite-green: #06942a33;
+  --xlite-green: rgba(6, 148, 2, 0.05);
   --main-white: #fff;
   --main-black: #3f403f;
 
@@ -44,10 +47,9 @@
   --line-height: 2;
 
   --large-font: 5rem;
-  --medium-large: 4rem;
-  --medium-font: 2.5rem;
+  --medium-font: 3.5rem;
   --small-font: 2rem;
-  --xsmall-font: 1.5rem;
+  --xsmall-font: 1.3rem;
 
   --main-shadow: 0px 10px 30px rgba(6, 148, 42, 0.05);
   --main-transition: all 0.5s linear;

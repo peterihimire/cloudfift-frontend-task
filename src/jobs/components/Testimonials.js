@@ -25,7 +25,7 @@ class Testimonials extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      autoplay: true,
+      autoplay: false,
       speed: 4000,
       responsive: [
         {
@@ -55,10 +55,8 @@ class Testimonials extends Component {
     };
     return (
       <div className="testimonials">
-        <div className="testimonials-head">
-          <h4 className="testimonials-medium-font">
-            what are our customers saying
-          </h4>
+        <div className="title testimonials-title">
+          <h4 className="">what are our customers saying</h4>
         </div>
         <div className="testimonial-slider-container">
           <div className="slick-btn-container" style={{ textAlign: "right" }}>

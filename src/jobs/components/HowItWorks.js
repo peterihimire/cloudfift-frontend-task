@@ -1,6 +1,7 @@
 import React from "react";
 import "./HowItWorks.css";
 import homeImg from "../../assets/top-workers.svg";
+import greenCheck from "../../assets/greencheck-round.svg";
 
 const HowItWorks = () => {
   return (
@@ -10,20 +11,60 @@ const HowItWorks = () => {
           <img src={homeImg} alt="home-img" />
         </div>
         <div className="how-it-works-text-container">
-          <p>
-            When the time to invest on home comes dont fail to invest with
-            bnk-homes and real-estate. we offer competitive home price offer and
-            sales that you will always find attractive. Hurry up now and grab
-            your best offer now.
-          </p>
-          <p>
-            Our homes and real-estate are located in various part of Nigeria,
-            from Benin, Lagos , Imo , Port-Harcourt and Abuja. And they are
-            located in the urban and sub-urban areas of the state. Places youll
-            always fall in love with once you see it .
-          </p>
-          <div className="">
-            <button className="btn btn-bigger">learn more</button>
+          <div className="how-it-works-heading">
+            <div className="title">
+              <h4>How It Works</h4>
+            </div>
+            <p>
+              Getajob helps you find the right job easily. Getajob helps you
+              find the right job easily. Getajob helps you find the right job
+              easily.
+            </p>
+          </div>
+
+          <div className="howitworks-item">
+            <div className="howitworks-item-title">
+              <div>
+                <img src={greenCheck} alt="" />
+              </div>
+              <div className="">
+                <h5>Search Jobs</h5>
+              </div>
+            </div>
+            <p>
+              We have jobs in the most popular industries and with top
+              companies. Plus, you can create alerts so you never miss a job
+              opportunity.
+            </p>
+          </div>
+          <div className="howitworks-item">
+            <div className="howitworks-item-title">
+              <div>
+                <img src={greenCheck} alt="" />
+              </div>
+              <div className="">
+                <h5>Create a Profile and Get Noticed</h5>
+              </div>
+            </div>
+            <p>
+              Create a profile to showcase your skills and experience so
+              recruiters can find you. Upload your CV so you can apply for jobs
+              quickly and easily.
+            </p>
+          </div>
+          <div className="howitworks-item">
+            <div className="howitworks-item-title">
+              <div>
+                <img src={greenCheck} alt="" />
+              </div>
+              <div className="">
+                <h5>Apply for jobs</h5>
+              </div>
+            </div>
+            <p>
+              Find the training you need to improve your skills, or visit our
+              Career Center for tips and advice to build your career.
+            </p>
           </div>
         </div>
       </div>

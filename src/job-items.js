@@ -1,7 +1,7 @@
 import flutterwave from "../src/assets/flutterwave-color-logo.svg";
 import google from "../src/assets/google-logo.svg";
-import access from "../src/assets/access-color-logo.svg";
-import paystack from "../src/assets/paystack-color-logo.svg";
+// import access from "../src/assets/access-color-logo.svg";
+// import paystack from "../src/assets/paystack-color-logo.svg";
 
 let JOB;
 
@@ -12,7 +12,7 @@ JOB = [
     role: "QA Engineer",
     location: "Abuja, Nigeria",
     type: "Full Time",
-    image: paystack,
+    image: google,
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ JOB = [
     role: "Frontend Engineer",
     location: "Abuja, Nigeria",
     type: "Full Time",
-    image: access,
+    image: google,
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ JOB = [
     role: "Backend Developer",
     location: "Lekki, Nigeria",
     type: "Full Time",
-    image: paystack,
+    image: flutterwave,
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ JOB = [
     role: "Chattered Accountant",
     location: "Ikoyi, Nigeria",
     type: "Full Time",
-    image: access,
+    image: google,
   },
   {
     id: 8,

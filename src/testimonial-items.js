@@ -5,42 +5,42 @@ let TESTIMONY;
 TESTIMONY = [
   {
     id: 1,
-    name: "Peter Ihimire",
-    location: "Ikeja lagos",
+    name: "Irma Black",
+    role: "HR Manager at MasterCard",
     testimony:
-      "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
+      "The platform is really convenient to reach out to companies & I have managed to secure 2 interviews already! I can also track my application status instead of wondering whether the company has seen or shortlisted me",
     image: imgProperty,
   },
   {
     id: 2,
-    name: "Maria Ihimire",
-    location: "Ikeja lagos",
+    name: "Irma Black",
+    role: "HR Manager at MasterCard",
     testimony:
-      "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
+      "The platform is really convenient to reach out to companies & I have managed to secure 2 interviews already! I can also track my application status instead of wondering whether the company has seen or shortlisted me",
     image: imgProperty,
   },
   {
     id: 3,
-    name: "Bridget Ihimire Mmakaogu",
-    location: "Ikeja lagos",
+    name: "Bridget IIrma Blackgu",
+    role: "HR Manager at MasterCard",
     testimony:
-      "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
+      "The platform is really convenient to reach out to companies & I have managed to secure 2 interviews already! I can also track my application status instead of wondering whether the company has seen or shortlisted me",
     image: imgProperty,
   },
   {
     id: 4,
-    name: "Beatirce Nkechinyere Ihimire",
-    location: "Ikeja lagos",
+    name: "Beatirce Irma Blackhimire",
+    role: "HR Manager at MasterCard",
     testimony:
-      "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
+      "The platform is really convenient to reach out to companies & I have managed to secure 2 interviews already! I can also track my application status instead of wondering whether the company has seen or shortlisted me",
     image: imgProperty,
   },
   {
     id: 5,
-    name: "Joseph Imadojemu Ihimire",
-    location: "Ikeja lagos",
+    name: "Joseph ImIrma Blackre",
+    role: "HR Manager at MasterCard",
     testimony:
-      "BNK realestate is  the estate for you to invest your hard earned money. Find our taxis near you for affordable interstate transports. So feel free to invest we got you covered in 70% insurance.",
+      "The platform is really convenient to reach out to companies & I have managed to secure 2 interviews already! I can also track my application status instead of wondering whether the company has seen or shortlisted me",
     image: imgProperty,
   },
 ];

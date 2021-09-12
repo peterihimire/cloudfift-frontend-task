@@ -14,6 +14,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
+/***** SLIDER SPECIAL CLASSES FOR THE BUTTON *****/
 
 .bFVIv {
   right: -50px;
@@ -23,18 +24,14 @@
 }
 .aoTUt {
   right: 280px !important;
-  /* left: 60px !important; */
 }
 
 .dHQcjo {
-  left: 1350px !important;
-  /* right: 0px !important; */
+  left: 50px !important;
 }
 .kZZOPs {
   position: absolute;
-  /* height: 50% !important; */
   height: 100% !important;
-
   width: 51px;
   cursor: pointer;
   top: 220px !important;
@@ -42,7 +39,6 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  /* display: initial !important; */
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -53,24 +49,12 @@
   justify-content: center;
 }
 .gwZiig {
-  width: 80% !important;
-  max-width: 117rem;
-  margin: 0 auto;
-  overflow-x: visible !important;
+  /* width: 100% !important; */
+  /* max-width: 100%; */
+  /* margin: 0 auto; */
+  overflow-x: hidden !important;
 }
-/* Added this  */
-.gallery-img {
-  /* width: 400px !important; */
-  /* height: 400px; */
-  /* margin: 0 2rem 0 0; */
-}
-.gallery-img img {
-  width: 100%;
-}
-.gallery-img-grid {
-  /* display: flex; */
-  /* overflow-x: scroll; */
-}
+
 .carousel-div {
   padding: 1rem 0 0 0;
 }
@@ -79,9 +63,46 @@
   .carousel-div {
     padding: 2rem 0 0 0;
   }
-  .gallery-img-grid {
-    /* display: flex; */
-    /* overflow-x: scroll; */
+  /***** SLIDER SPECIAL CLASSES FOR THE BUTTON *****/
+
+  .bFVIv {
+    right: -50px;
+  }
+  .xdplp {
+    left: -50px;
+  }
+  .aoTUt {
+    right: 280px !important;
+  }
+
+  .dHQcjo {
+    left: 1350px !important;
+  }
+  .kZZOPs {
+    position: absolute;
+    height: 100% !important;
+    width: 51px;
+    cursor: pointer;
+    top: 220px !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* display: initial !important; */
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .gwZiig {
+    width: 80% !important;
+    max-width: 117rem;
+    margin: 0 auto;
+    overflow-x: visible !important;
   }
 }
 /* LAPTOP */
@@ -97,5 +118,45 @@
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-row-gap: 1.5rem;
     grid-column-gap: 1.5rem;
+  }
+  /***** SLIDER SPECIAL CLASSES FOR THE BUTTON *****/
+  .bFVIv {
+    right: -50px;
+  }
+  .xdplp {
+    left: -50px;
+  }
+  .aoTUt {
+    right: 280px !important;
+  }
+
+  .dHQcjo {
+    left: 1350px !important;
+  }
+  .kZZOPs {
+    position: absolute;
+    height: 100% !important;
+    width: 51px;
+    cursor: pointer;
+    top: 220px !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* display: initial !important; */
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .gwZiig {
+    width: 80% !important;
+    max-width: 117rem;
+    margin: 0 auto;
+    overflow-x: visible !important;
   }
 }

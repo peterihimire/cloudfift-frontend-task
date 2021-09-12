@@ -14,6 +14,11 @@ const Banner = () => {
     <div className="banner">
       <div className="banner-container">
         <div className="banner-content">
+          <div className="banner-right visible-xs hidden-md hidden-xl">
+            <div className="banner-img-div">
+              <img src={headerImg} alt="hero" />
+            </div>
+          </div>
           <div className="banner-left">
             <h1>
               Find a <span>job</span> easily
@@ -49,7 +54,7 @@ const Banner = () => {
                 </div>
               </form>
             </div>
-            <div>
+            <div className="trusted-companies-div">
               <h4>Trusted by:</h4>
               <div className="trusted-companies">
                 <div className="trusted-company">
@@ -64,7 +69,8 @@ const Banner = () => {
               </div>
             </div>
           </div>
-          <div className="banner-right">
+
+          <div className="banner-right visible-md visible-xl hidden-xs">
             <div className="banner-img-div">
               <img src={headerImg} alt="hero" />
             </div>
