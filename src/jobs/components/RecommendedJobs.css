@@ -47,3 +47,18 @@
   line-height: 1.5;
   /* text-transform: capitalize; */
 }
+/***** TABLET *****/
+@media screen and (min-width: 768px) {
+  .recommended-title-container {
+    max-width: 117rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+/***** LAPTOP *****/
+@media (min-width: 993px) {
+  .recommended-title-container {
+    max-width: 117rem;
+    margin: 0 auto;
+  }
+}

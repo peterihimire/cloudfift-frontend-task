@@ -14,7 +14,7 @@ const Banner = () => {
     <div className="banner">
       <div className="banner-container">
         <div className="banner-content">
-          <div className="banner-right visible-xs hidden-md hidden-xl">
+          <div className="banner-right visible-xs visible-md hidden-xl">
             <div className="banner-img-div">
               <img src={headerImg} alt="hero" />
             </div>
@@ -70,7 +70,7 @@ const Banner = () => {
             </div>
           </div>
 
-          <div className="banner-right visible-md visible-xl hidden-xs">
+          <div className="banner-right hidden-md visible-xl hidden-xs">
             <div className="banner-img-div">
               <img src={headerImg} alt="hero" />
             </div>

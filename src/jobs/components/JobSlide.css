@@ -14,7 +14,7 @@
   border-radius: 4px;
   cursor: pointer;
 }
-/***** SLIDER SPECIAL CLASSES FOR THE BUTTON *****/
+/***** SLIDER SPECIAL CLASSES FOR THE BUTTON CONTROL *****/
 
 .bFVIv {
   right: -50px;
@@ -58,12 +58,12 @@
 .carousel-div {
   padding: 1rem 0 0 0;
 }
-/* TABLET */
+/***** TABLET *****/
 @media screen and (min-width: 768px) {
   .carousel-div {
     padding: 2rem 0 0 0;
   }
-  /***** SLIDER SPECIAL CLASSES FOR THE BUTTON *****/
+  /***** SLIDER SPECIAL CLASSES FOR THE BUTTON CONTROL *****/
 
   .bFVIv {
     right: -50px;
@@ -99,13 +99,13 @@
     justify-content: center;
   }
   .gwZiig {
-    width: 80% !important;
+    /* width: 80% !important;
     max-width: 117rem;
-    margin: 0 auto;
-    overflow-x: visible !important;
+    margin: 0 auto; */
+    overflow-x: hidden !important;
   }
 }
-/* LAPTOP */
+/***** LAPTOP *****/
 @media (min-width: 993px) {
   .gallery-img-grid-container {
     max-width: 117rem;
@@ -119,7 +119,7 @@
     grid-row-gap: 1.5rem;
     grid-column-gap: 1.5rem;
   }
-  /***** SLIDER SPECIAL CLASSES FOR THE BUTTON *****/
+  /***** SLIDER SPECIAL CLASSES FOR THE BUTTON CONTROL *****/
   .bFVIv {
     right: -50px;
   }

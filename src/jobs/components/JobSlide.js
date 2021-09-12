@@ -57,7 +57,7 @@ const JobSlide = () => {
               <ItemsCarousel
                 requestToChangeActive={setActiveItemIndex}
                 activeItemIndex={activeItemIndex}
-                numberOfCards={3}
+                numberOfCards={2}
                 gutter={20}
                 freeScrolling={true}
                 outsideChevron={true}

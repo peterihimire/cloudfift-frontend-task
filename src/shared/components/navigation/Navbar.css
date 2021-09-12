@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 0rem;
+  /* padding: .5rem 0rem; */
 }
 .navbar-head {
   display: flex;
@@ -37,7 +37,7 @@
   margin: 0 0 0 3rem;
 } */
 .navbar-logo img {
-  width: 70%;
+  width: 100%;
 }
 .logo-icon {
   /* width: 60%; */
