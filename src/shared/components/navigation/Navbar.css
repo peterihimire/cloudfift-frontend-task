@@ -36,15 +36,11 @@
 /* .navbar-logo-div {
   margin: 0 0 0 3rem;
 } */
-.navbar-logo {
-  /* font-size: 2rem; */
-  /* text-decoration: none; */
-  /* text-transform: uppercase; */
-  /* color: var(--primary-color) !important; */
+.navbar-logo img {
+  width: 70%;
 }
 .logo-icon {
   /* width: 60%; */
-
 }
 /* TABLET */
 @media screen and (min-width: 768px) {
@@ -58,6 +54,9 @@
     /* box-shadow: var(--main-shadow); */
     z-index: 3;
     padding: 0 2rem;
+  }
+  .navbar-logo img {
+    width: 100%;
   }
 }
 /* LAPTOP */
@@ -103,5 +102,8 @@
   }
   .navbar-logo-div {
     margin: 0 0 0 0rem;
+  }
+  .navbar-logo img {
+    width: 100%;
   }
 }

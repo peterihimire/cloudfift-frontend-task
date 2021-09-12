@@ -8,74 +8,80 @@ const Footer = () => {
     <footer>
       <div className="footer-wrapper">
         <div className="footer-one">
-          <div className="footer-item">
-            <div className="footer-logo">
-              <img src={logoAlt} alt="" />
+          <div className="footer-one-one">
+            <div className="footer-item">
+              <div className="footer-logo">
+                <img src={logoAlt} alt="" />
+              </div>
+              <div className="footer-text">
+                <p>
+                  Getajobng provides a full online service for anyone looking
+                  for a new job. We're not a recruitment agency, we're a job
+                  site.
+                </p>
+              </div>
             </div>
-            <div className="footer-text">
-              <p>
-                Getajobng provides a full online service for anyone looking for
-                a new job. We're not a recruitment agency, we're a job site.
-              </p>
-            </div>
-          </div>
-          <div className="footer-item">
-            <h5>information</h5>
-            <ul>
-              <li>
-                <a href="/">About us</a>
-              </li>
-              <li>
-                <a href="/">Earnings</a>
-              </li>
-              <li>
-                <a href="/">Cities</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-item">
-            <h5>job seekers</h5>
-            <ul>
-              <li>
-                <a href="/">Sign up to ride</a>
-              </li>
-              <li>
-                <a href="/">Fare Estimate</a>
-              </li>
-              <li>
-                <a href="/">Lyft Pink</a>
-              </li>
-            </ul>
-          </div>
-          <div className="footer-item">
-            <h5>employers</h5>
-            <ul>
-              <li>
-                <a href="/">Careers</a>
-              </li>
-              <li>
-                <a href="/">LyftUp</a>
-              </li>
-              <li>
-                <a href="/">Business</a>
-              </li>
-            </ul>
           </div>
 
-          <div className="footer-item">
-            <h5>social media</h5>
-            <div className="footer-social-div">
-              <div className="footer-social">
-                <img src={twitter} alt="" />
-              </div>
-              <div className="footer-social">
-                <img src={twitter} alt="" />
-              </div>
-              <div className="footer-social">
-                <img src={twitter} alt="" />
-              </div>
-              <div className="footer-social">
-                <img src={twitter} alt="" />
+          <div className="footer-one-two">
+            <div className="footer-item">
+              <h5>information</h5>
+              <ul>
+                <li>
+                  <a href="/">About us</a>
+                </li>
+                <li>
+                  <a href="/">Earnings</a>
+                </li>
+                <li>
+                  <a href="/">Cities</a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-item">
+              <h5>job seekers</h5>
+              <ul>
+                <li>
+                  <a href="/">Sign up to ride</a>
+                </li>
+                <li>
+                  <a href="/">Fare Estimate</a>
+                </li>
+                <li>
+                  <a href="/">Lyft Pink</a>
+                </li>
+              </ul>
+            </div>
+            <div className="footer-item">
+              <h5>employers</h5>
+              <ul>
+                <li>
+                  <a href="/">Careers</a>
+                </li>
+                <li>
+                  <a href="/">LyftUp</a>
+                </li>
+                <li>
+                  <a href="/">Business</a>
+                </li>
+              </ul>
+            </div>
+
+            <div className="footer-item">
+              <h5>social media</h5>
+              <div className="footer-social-div">
+                <div className="footer-social">
+                  <img src={twitter} alt="" />
+                </div>
+                <div className="footer-social">
+                  <img src={twitter} alt="" />
+                </div>
+                <div className="footer-social">
+                  <img src={twitter} alt="" />
+                </div>
+                <div className="footer-social">
+                  <img src={twitter} alt="" />
+                </div>
               </div>
             </div>
           </div>
