@@ -1,4 +1,4 @@
-/* LATO FONT */
+/***** LATO FONT *****/
 @font-face {
   font-family: "lato";
   src: local("lato"), url("./fonts/lato/Lato-Regular.ttf") format("truetype");
@@ -7,31 +7,56 @@
   font-family: "lato-bold";
   src: local("lato"), url("./fonts/lato/Lato-Bold.ttf") format("truetype");
 }
-/* TRUENO */
 @font-face {
-  font-family: "trueno";
-  src: local("trueno"), url("./fonts/trueno/TruenoRg.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
+  font-family: "lato-light";
+  src: local("lato"), url("./fonts/lato/Lato-Light.ttf") format("truetype");
 }
 @font-face {
-  font-family: "trueno-bold";
-  src: local("trueno"), url("./fonts/trueno/TruenoBd.woff") format("woff");
-  font-style: normal;
-  font-weight: normal;
+  font-family: "lato-medium";
+  src: local("lato"), url("./fonts/lato/Lato-Medium.ttf") format("truetype");
 }
 @font-face {
-  font-family: "trueno-extra-bold";
-  src: local("trueno"), url("./fonts/trueno/TruenoExBd.woff") format("woff");
-  font-style: normal;
+  font-family: "lato-thin";
+  src: local("lato"), url("./fonts/lato/Lato-Thin.ttf") format("truetype");
+}
+/***** GT WALSHEIM PRO FONT *****/
+@font-face {
+  font-family: "GT-Walsheim-Regular";
+  src: url("./fonts/gtwalsheimpro/GTWalsheimPro-Regular.eot");
+  src: local("GT Walsheim Pro Regular"), local("GTWalsheimPro-Regular"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Regular.woff2") format("woff2"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Regular.woff") format("woff"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Regular.ttf") format("truetype");
   font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-  font-family: "trueno-lite";
-  src: local("trueno"), url("./fonts/trueno/TruenoLt.woff") format("woff");
+  font-family: "GT-Walsheim-Bold";
+  src: url("./fonts/gtwalsheimpro/GTWalsheimPro-Bold.eot");
+  src: local("GT Walsheim Pro Bold"), local("GTWalsheimPro-Bold"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Bold.woff2") format("woff2"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Bold.woff") format("woff"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Bold.ttf") format("truetype");
+  font-weight: bold;
   font-style: normal;
-  font-weight: normal;
 }
+@font-face {
+  font-family: "GT-Walsheim-Light";
+  src: url("./fonts/gtwalsheimpro/GTWalsheimPro-Light.eot");
+  src: local("GT Walsheim Pro Light"), local("GTWalsheimPro-Light"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Light.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Light.woff2") format("woff2"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Light.woff") format("woff"),
+    url("./fonts/gtwalsheimpro/GTWalsheimPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
 :root {
   font-size: 62.5%;
   --main-grey: #9b9b9b;
@@ -55,7 +80,9 @@
   --main-transition: all 0.5s linear;
 
   --font: "lato", sans-serif;
-  --font-bold: "lato-bold", sans-serif;
+  --font-reg: "GT-Walsheim-Regular", sans-serif;
+  --font-bold: "GT-Walsheim-Bold", sans-serif;
+  --font-lite: "GT-Walsheim-Light", sans-serif;
 
   --sec-font: "trueno", sans-serif;
   --sec-font-bold: "trueno-bold", sans-serif;
@@ -95,9 +122,10 @@ body {
 h1,
 h2,
 h3,
-h4 {
-  font-family: var(--sec-font-bold);
-  letter-spacing: -1px;
+h4,
+h5 {
+  font-family: var(--font-bold);
+  /* letter-spacing: -1px; */
 }
 
 h1 {
@@ -168,10 +196,8 @@ p {
 .btn {
   background-color: var(--lite-green) !important;
   color: var(--dark-green) !important;
-  /* text-transform: uppercase !important; */
   box-shadow: none !important;
   width: 100px;
-  /* padding: 0 0 !important; */
   font-size: 1.2rem !important;
   height: 38px !important;
   line-height: 38px !important;
@@ -188,14 +214,6 @@ p {
   padding: 0 0rem !important;
   font-weight: bolder;
   width: 160px;
-}
-.btn:disabled,
-.btn:hover:disabled,
-.btn:active:disabled {
-  background: #ccc !important;
-  color: #979797 !important;
-  border-color: #ccc !important;
-  cursor: not-allowed !important;
 }
 
 /***** DESKTOP *****/

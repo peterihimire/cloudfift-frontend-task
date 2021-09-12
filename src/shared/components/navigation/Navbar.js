@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
 import NavLinks from "../../../shared/components/navigation/NavLinks";
@@ -11,27 +11,27 @@ import LogoIcon from "../../../assets/logo.svg";
 const Navbar = (props) => {
   console.log(props);
   // const [drawerIsOpen, setDrawerIsOpen] = useState(false);
-  // const [isColor, setIsColor] = useState(false);
+  const [isColor, setIsColor] = useState(false);
   // const [isPadding, setIsPadding] = useState(false);
 
-  // const navColorHandler = () => {
-  //   let position = window.pageYOffset;
-  //   console.log(position);
-  //   if (position > 120) {
-  //     setIsColor(true);
-  //     // setIsPadding(true);
-  //   } else {
-  //     setIsColor(false);
-  //     // setIsPadding(false);
-  //   }
-  // };
+  const navColorHandler = () => {
+    let position = window.pageYOffset;
+    console.log(position);
+    if (position > 120) {
+      setIsColor(true);
+      // setIsPadding(true);
+    } else {
+      setIsColor(false);
+      // setIsPadding(false);
+    }
+  };
 
-  // useEffect(() => {
-  //   document.addEventListener("scroll", () => {
-  //     console.log(window.scrollY);
-  //     navColorHandler();
-  //   });
-  // }, []);
+  useEffect(() => {
+    document.addEventListener("scroll", () => {
+      console.log(window.scrollY);
+      navColorHandler();
+    });
+  }, []);
 
   // const openDrawerHandler = () => {
   //   setDrawerIsOpen(true);
@@ -46,9 +46,9 @@ const Navbar = (props) => {
       <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
         <NavLinksMob />
       </SideDrawer> */}
-      <nav className={"navbar"}>
+      <nav className={isColor ? "navbar navbar-color  " : "navbar"}>
         <div className="navbar-container">
-          <div className={"navbar-main"}>
+          <div className={isColor ? "navbar-main navbar-padding" : "navbar-main"}>
             <div className="navbar-head">
               <button
                 className="navbar-btn"

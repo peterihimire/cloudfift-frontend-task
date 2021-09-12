@@ -34,7 +34,7 @@ const Banner = () => {
                   <div className="input-no-icon">
                     <input
                       type="text"
-                      placeholder="Enter keywords,skill,interest"
+                      placeholder="Enter keywords, skill, interest"
                       id="password"
                       name="password"
                     />
@@ -55,7 +55,7 @@ const Banner = () => {
               </form>
             </div>
             <div className="trusted-companies-div">
-              <h4>Trusted by:</h4>
+              <p>Trusted by:</p>
               <div className="trusted-companies">
                 <div className="trusted-company">
                   <img src={paystack} alt="" />

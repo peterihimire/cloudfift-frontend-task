@@ -13,7 +13,7 @@ const HowItWorks = () => {
         <div className="how-it-works-text-container">
           <div className="how-it-works-heading">
             <div className="title">
-              <h4>How It Works</h4>
+              <h4>How it works</h4>
             </div>
             <p>
               Getajob helps you find the right job easily. Getajob helps you

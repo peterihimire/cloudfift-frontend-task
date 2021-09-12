@@ -5,7 +5,6 @@
   width: 100%;
   background-color: var(--main-white);
   color: var(--main-white);
-  /* box-shadow: var(--main-shadow); */
   z-index: 3;
   padding: 0 2rem;
 }
@@ -26,22 +25,14 @@
 }
 .navbar-btn {
   background: none;
-  /* border: solid 0.2rem var(--primaryColor);
-  border-radius: 0.4rem; */
   border: none;
-  /* padding: 0.27rem 0.5rem 0rem 0.5rem; */
   padding: 0 !important;
   outline: none;
 }
-/* .navbar-logo-div {
-  margin: 0 0 0 3rem;
-} */
 .navbar-logo img {
   width: 100%;
 }
-.logo-icon {
-  /* width: 60%; */
-}
+
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
   .navbar {
@@ -51,7 +42,6 @@
     width: 100%;
     background-color: var(--main-white);
     color: var(--main-white);
-    /* box-shadow: var(--main-shadow); */
     z-index: 3;
     padding: 0 2rem;
   }
@@ -66,11 +56,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    /* background: none !important; */
     background-color: transparent;
-    /* background-color: green; */
     color: var(--main-white);
-    /* box-shadow: var(--main-shadow); */
     z-index: 3;
     padding: 0 2rem;
     transition: all 1s ease;
@@ -92,12 +79,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 1rem 0rem; */
-    transition: all 1s ease;
-  }
-  /* reduce the padding upon a particular scroll position */
-  .navbar-padding {
-    padding: 2rem 0rem;
+    padding: 1rem 0rem;
     transition: all 1s ease;
   }
   .navbar-logo-div {

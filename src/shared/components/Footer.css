@@ -9,7 +9,6 @@ footer {
   font-size: 1.2rem;
 }
 .footer-item h5 {
-  /* font-size: var(--medium-font); */
   text-transform: capitalize;
   font-weight: bolder;
   margin: 0 0 1rem 0;
@@ -18,7 +17,7 @@ footer {
   font-size: var(--xsmall-font);
 }
 .footer-item li {
-  padding: 1rem 0;
+  padding: 0.4rem 0;
   list-style: none;
 }
 .footer-item a {
@@ -53,6 +52,14 @@ footer {
   font-size: var(--xsmall-font);
   color: var(--main-grey);
 }
+.footer-one-two p {
+  text-transform: capitalize;
+  font-weight: bolder;
+  margin: 0 0 2rem 0;
+  font-family: var(--font-reg);
+  font-size: 17px;
+}
+
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
   .footer-one {
@@ -112,6 +119,18 @@ footer {
   .footer-social img {
     width: 100%;
   }
+  .footer-item li {
+    padding: 0.6rem 0;
+    list-style: none;
+  }
+  .footer-one-two p {
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin: 0 0 2rem 0;
+    font-family: var(--font-reg);
+    font-size: 17px;
+  }
+
 }
 /***** LAPTOP *****/
 @media (min-width: 993px) {
@@ -140,10 +159,12 @@ footer {
   .footer-item a {
     font-size: 1.2rem;
   }
-  .footer-item h5 {
+  .footer-one-two p {
     text-transform: capitalize;
     font-weight: bolder;
     margin: 0 0 2rem 0;
+    font-family: var(--font-reg);
+    font-size: 17px;
   }
 
   .footer-two {
@@ -154,6 +175,7 @@ footer {
   .footer-two p {
     font-size: var(--xsmall-font);
     color: var(--main-grey);
+    font-family: var(--font-reg);
   }
   .footer-two span {
     padding: 0 2rem;
@@ -167,7 +189,7 @@ footer {
   }
   .footer-item .footer-text {
     margin: 2rem 0 0 0;
-    width: 300px !important;
+    width: 280px !important;
   }
   .footer-wrapper {
     max-width: 117rem;
@@ -180,7 +202,7 @@ footer {
     color: var(--primaryColor);
   }
   .footer-item li {
-    padding: 1rem 0;
+    padding: 0.8rem 0;
     list-style: none;
   }
   .footer-item a {

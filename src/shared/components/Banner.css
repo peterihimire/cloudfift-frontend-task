@@ -91,8 +91,11 @@ input[type="email"] {
   /* padding: 1.5rem 13rem; */
   padding: 1.5rem 0;
 
-  border: solid 1px var(--main-grey);
+  border: solid 1px var(--sec-grey);
   color: var(--main-black);
+}
+input::placeholder {
+  color: #c4c4c4 !important;
 }
 .input-with-icon .circle-icon {
   position: absolute;
@@ -169,7 +172,6 @@ input[type="email"] {
   .banner-left h1 {
     font-size: 5rem;
   }
-
   .banner-left {
     width: 500px;
   }

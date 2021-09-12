@@ -21,8 +21,6 @@
   color: var(--main-black);
   transition: var(--mainTransition);
   font-size: 1.3rem;
-  /* text-transform: uppercase; */
-  /* letter-spacing: var(--main-spacing); */
   text-align: left;
 }
 /* FOR THE SIGN-OUT BUTTON COLOR CHANGE */

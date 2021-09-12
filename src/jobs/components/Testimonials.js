@@ -56,7 +56,7 @@ class Testimonials extends Component {
     return (
       <div className="testimonials">
         <div className="title testimonials-title">
-          <h4 className="">what are our customers saying</h4>
+          <h4 className="">What are our customers saying</h4>
         </div>
         <div className="testimonial-slider-container">
           <div className="slick-btn-container" style={{ textAlign: "right" }}>

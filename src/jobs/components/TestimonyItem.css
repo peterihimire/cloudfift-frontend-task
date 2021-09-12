@@ -10,7 +10,6 @@
 }
 .testimony-main-text p {
   line-height: var(--line-height);
-  font-size: 15px;
 }
 .testimony-name {
   padding: 3rem 0 2rem 0;
@@ -20,25 +19,16 @@
 }
 .testimony-content-text {
   padding: 0 0rem 0rem 0rem;
-  /* position: relative; */
+
   position: static;
 }
 .quote-div {
-  /* position: absolute; */
   position: static;
-  /* top: -140px; */
 }
 .testimony-main-div {
-  /* position: absolute; */
   position: static;
-  /* top: -100px; */
-  /* left: 90px; */
 }
 
-/* .testimony-card {
-  width: 97%;
-  margin: 2rem auto;
-} */
 .testimony-main-text {
   width: 100% !important;
 }

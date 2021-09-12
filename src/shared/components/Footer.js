@@ -25,7 +25,7 @@ const Footer = () => {
 
           <div className="footer-one-two">
             <div className="footer-item">
-              <h5>information</h5>
+              <p>information</p>
               <ul>
                 <li>
                   <a href="/">About us</a>
@@ -39,7 +39,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-item">
-              <h5>job seekers</h5>
+              <p>job seekers</p>
               <ul>
                 <li>
                   <a href="/">Sign up to ride</a>
@@ -53,7 +53,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-item">
-              <h5>employers</h5>
+              <p>employers</p>
               <ul>
                 <li>
                   <a href="/">Careers</a>
@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-item">
-              <h5>social media</h5>
+              <p>social media:</p>
               <div className="footer-social-div">
                 <div className="footer-social">
                   <img src={twitter} alt="" />

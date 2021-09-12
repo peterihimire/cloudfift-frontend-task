@@ -17,7 +17,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>register</h5>
+            <p className="popular-head">register</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>create property</h5>
+            <p className="popular-head">create property</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>search property</h5>
+            <p className="popular-head">search property</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>register</h5>
+            <p className="popular-head">register</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -53,7 +53,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>create property</h5>
+            <p className="popular-head">create property</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>search property</h5>
+            <p className="popular-head">search property</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>register</h5>
+            <p className="popular-head">register</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -80,7 +80,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <h5>create property</h5>
+            <p className="popular-head">create property</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
