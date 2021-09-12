@@ -54,13 +54,13 @@ class Testimonials extends Component {
       slidesToScroll: 1,
     };
     return (
-      <div className="home-testimonials">
-        <div className="home-testimonials-head">
+      <div className="testimonials">
+        <div className="testimonials-head">
           <h4 className="testimonials-medium-font">
             what are our customers saying
           </h4>
         </div>
-        <div className="home-slider-container">
+        <div className="testimonial-slider-container">
           <div className="slick-btn-container" style={{ textAlign: "right" }}>
             <button className="chev-btn testimony-chev" onClick={this.previous}>
               <FaChevronLeft className="arrow-icon" />

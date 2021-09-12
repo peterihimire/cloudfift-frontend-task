@@ -4,14 +4,12 @@ import homeImg from "../../assets/top-workers.svg";
 
 const HowItWorks = () => {
   return (
-    <div className="home-about">
-    
-
-      <div className="home-about-content">
-        <div className="home-about-img-container">
+    <div className="how-it-works">
+      <div className="how-it-works-content">
+        <div className="how-it-works-img-container">
           <img src={homeImg} alt="home-img" />
         </div>
-        <div className="home-about-text-container">
+        <div className="how-it-works-text-container">
           <p>
             When the time to invest on home comes dont fail to invest with
             bnk-homes and real-estate. we offer competitive home price offer and

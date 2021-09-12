@@ -1,79 +1,38 @@
-.property-item-img {
-  width: 100%;
+.job-item-img {
+  width: 50px;
   /* height: 100px; */
+  /* margin: 0 auto; */
 }
-.property-item-img img {
+.job-item-img img {
   width: 100%;
-  height: 220px;
+  height: 50px;
   border-radius: 5px;
 }
-.price-bed {
+.job-item-upper {
+  border-bottom: solid 0.5px var(--main-grey);
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 200px;
 }
-.location-shower {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.job-item-lower {
+  padding: 4rem 2rem 0 2rem;
 }
 .flex-align {
   display: flex;
   align-items: center;
 }
 /* NEWLY ADDED */
-.property {
-  padding: 1rem;
+.job {
+  /* padding: 1rem; */
   position: relative;
   overflow: hidden;
-  height: 300px;
+  height: 350px;
   /* width: 300px; */
 }
-/* .property-card:hover {
-  transform: scale(1.05);
-  transition: var(--main-transition);
-  cursor: pointer;
-} */
-/* .property:hover .property-hover-options {
-  transform: translate(-50%, -50%) scale(1);
-  transition: var(--main-transition);
-} */
-.property-hover-options button {
-  border: none !important;
-}
-.property-hover-options {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: scale(0);
-  /* background-color: rgba(0, 0, 0, 0.604); */
-  width: 100%;
-  height: 100%;
+.job-item-action {
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 0 2rem;
-  transition: var(--main-transition);
-}
-.property-options-icon-btn {
-  padding: 1rem;
-  font-size: 2rem !important;
-  background-color: var(--primary-color);
-  margin: 0 1rem;
-  color: var(--main-white);
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
-  /* CENTERS ICON IN THE BUTTON */
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  transition: var(--main-transition);
-}
-.property-options-icon-btn:hover {
-  background-color: var(--main-white);
-  color: var(--primary-color);
-  transition: var(--main-transition);
-  cursor: pointer;
+  justify-content: space-between;
 }

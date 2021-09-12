@@ -3,7 +3,7 @@
   height: 200px;
   background-color: aqua;
 }
-.home-recent h4 {
+.recommended h4 {
   color: var(--primary-color);
   font-size: var(--small-font);
 }

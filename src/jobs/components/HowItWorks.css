@@ -1,8 +1,8 @@
-.home-about {
+.how-it-works {
   padding: 5rem 0;
 }
 
-.home-about-content {
+.how-it-works-content {
   /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-row-gap: 2rem;
@@ -12,23 +12,23 @@
   justify-content: center;
   align-items: center;
 }
-.home-about-img-container {
+.how-it-works-img-container {
   width: 100%;
 }
-.home-about-img-container img {
+.how-it-works-img-container img {
   width: 100%;
   border-radius: 25px;
 }
 
-.home-about-text-container {
+.how-it-works-text-container {
   width: 100%;
   /* margin: 2rem 0 0 0rem; */
   /* text-align: center; */
 }
-.home-about-text-container p {
+.how-it-works-text-container p {
   padding: 0 0 2rem 0;
 }
-.home-about-title {
+.how-it-works-title {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -37,55 +37,55 @@
   width: 100%;
   margin: 0 auto 4rem auto;
 }
-.home-about-title h2 {
+.how-it-works-title h2 {
   color: var(--primary-color);
   text-transform: uppercase;
   font-size: 3rem;
   padding: 0 0 2rem 0;
 }
-.home-about-title h4 {
+.how-it-works-title h4 {
   color: var(--dark-grey);
   text-transform: uppercase;
   font-size: var(--medium-font);
 }
-/* TABLET */
+/***** TABLET *****/
 @media screen and (min-width: 768px) {
-  .home-about-content {
+  .how-it-works-content {
     display: flex;
     flex-direction: row;
   }
-  .home-about-img-container {
+  .how-it-works-img-container {
     width: 100%;
   }
-  .home-about-img-container img {
+  .how-it-works-img-container img {
     width: 100%;
     border-radius: 25px;
   }
 
-  .home-about-text-container {
+  .how-it-works-text-container {
     width: 100%;
     margin: 0 0 0 4rem;
   }
 }
-/* LAPTOP */
+/***** LAPTOP *****/
 @media (min-width: 993px) {
-  .home-about-content {
+  .how-it-works-content {
     display: flex;
     flex-direction: row;
   }
-  .home-about-img-container {
+  .how-it-works-img-container {
     width: 100%;
   }
-  .home-about-img-container img {
+  .how-it-works-img-container img {
     width: 100%;
     border-radius: 25px;
   }
 
-  .home-about-text-container {
+  .how-it-works-text-container {
     width: 100%;
     margin: 0 0 0 8rem;
   }
-  .home-about-title {
+  .how-it-works-title {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */

@@ -2,68 +2,41 @@ import React from "react";
 import "./JobItem.css";
 import Card from "../../shared/components/uielements/Card";
 import "./JobItem.css";
-import { Link } from "react-router-dom";
-import { FaBed, FaBath, FaInfo, FaTrash, FaMapMarker } from "react-icons/fa";
+// import { Link } from "react-router-dom";
+// import { FaBed, FaBath, FaInfo, FaTrash, FaMapMarker } from "react-icons/fa";
 // import imgProperty from "../../assets/property-1.jpg";
 
 const JobItem = (props) => {
-  const { properties } = props;
+  const { jobs } = props;
   console.log(props);
-  console.log(properties);
-  console.log(properties.imagez);
+  console.log(jobs);
+  console.log(jobs.imagez);
   return (
-    <Card className="property-card">
-      {/* {properties.imagez && ( */}
-        <article className="property">
-          <div className="property-item-img">
-            {/* <img src={properties.imagez[0]} alt="home" /> */}
-            <img src={properties.image} alt="home" />
-
+    <Card className="job-card">
+      <article className="job">
+        <div className="job-item-type">
+          <p>{jobs.type}</p>
+        </div>
+        <div className="job-item-upper">
+          <div className="job-item-img">
+            <img src={jobs.image} alt="home" />
           </div>
           <div>
-            <h5>{properties.title}</h5>
-            <div className="price-bed">
-              <div>
-                <h6>
-                ₦{properties.amount}
-                  <span> million</span>
-                </h6>
-              </div>
-              <div className="flex-align">
-                <p>{properties.bedroom}</p>
-                <span>{<FaBed className="arrow-icon" />}</span>
-              </div>
-            </div>
-            <div className="location-shower">
-              <div>
-                <h6>{properties.address}</h6>
-              </div>
-              <div className="flex-align">
-                <p>{properties.bathroom}</p>
-                <span>{<FaBath className="arrow-icon" />}</span>
-              </div>
+            <div>{jobs.role}</div>
+          </div>
+        </div>
+        <div className="job-item-lower">
+          <div>
+            <div>{jobs.company}</div>
+          </div>
+          <div className="job-item-action">
+            <div>{jobs.location}</div>
+            <div>
+              <button>apply</button>
             </div>
           </div>
-
-          <div className="property-hover-options">
-            <Link
-              to={`/property/${properties.id}`}
-              className="property-options-icon-btn"
-            >
-              <FaInfo className="option-icon" />
-            </Link>
-            <Link
-              to={`/property/${properties.id}`}
-              className="property-options-icon-btn"
-            >
-              <FaMapMarker className="option-icon" />
-            </Link>
-            <button className="property-options-icon-btn">
-              <FaTrash className="option-icon" />
-            </button>
-          </div>
-        </article>
-      {/* )} */}
+        </div>
+      </article>
     </Card>
   );
 };

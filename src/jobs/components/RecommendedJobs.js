@@ -6,7 +6,7 @@ import JobSlide from "./JobSlide";
 
 const RecommendedJobs = () => {
   return (
-    <div className="home-recent">
+    <div className="recommended">
       {/* <h4>Recent</h4>
       <div className="recent-flex-start">
         <h4>recently added properties</h4>

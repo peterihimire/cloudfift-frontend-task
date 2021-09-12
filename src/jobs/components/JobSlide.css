@@ -1,4 +1,4 @@
-.property-slide {
+.job-slide {
   padding: 3rem 0;
 }
 .one-slide {
@@ -37,7 +37,7 @@
 
   width: 51px;
   cursor: pointer;
-  top: 180px !important;
+  top: 220px !important;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

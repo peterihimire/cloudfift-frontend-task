@@ -2,16 +2,16 @@ import React from "react";
 import "./JobSlide.css";
 import ItemsCarousel from "react-items-carousel";
 import JobItem from "./JobItem";
-import properties from "../../property-items";
+import jobs from "../../job-items";
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
 
 const JobSlide = () => {
-  console.log(properties);
+  console.log(jobs);
   const [activeItemIndex, setActiveItemIndex] = React.useState(0);
   const chevronWidth = 0;
   return (
-    <div className="property-slide">
-      <div className="property-slide-container">
+    <div className="job-slide">
+      <div className="job-slide-container">
         {/* FOR LAPTOPS */}
         <div className="hidden-xs  hidden-md visible-xl carousel-div">
           <div className="carousel">
@@ -19,8 +19,7 @@ const JobSlide = () => {
               <ItemsCarousel
                 requestToChangeActive={setActiveItemIndex}
                 activeItemIndex={activeItemIndex}
-                numberOfCards={3.6}
-                // gutter={10}
+                numberOfCards={3}
                 freeScrolling={true}
                 outsideChevron={false}
                 leftChevron={
@@ -34,24 +33,16 @@ const JobSlide = () => {
                   </button>
                 }
                 chevronWidth={chevronWidth}
-                // showSlither={true}
                 disableSwipe={true}
-                // infiniteLoop={true}
-
-                // requestToChangeActive={setActiveItemIndex}
-                // activeItemIndex={activeItemIndex}
-                // numberOfCards={2.2}
-                gutter={5}
+                gutter={20}
                 slidesToScroll={1}
                 firstAndLastGutter={true}
-                // freeScrolling={true}
-                // outsideChevron
                 showSlither={true}
               >
-                {properties.map((property) => {
+                {jobs.map((job) => {
                   return (
                     <div className="one-slide">
-                      <JobItem properties={property} key={property.id} />
+                      <JobItem jobs={job} key={job.id} />
                     </div>
                   );
                 })}
@@ -75,10 +66,10 @@ const JobSlide = () => {
 
                 // infiniteLoop={true}
               >
-                {properties.map((property) => {
+                {jobs.map((job) => {
                   return (
-                    <div className="one-slide" key={property.id}>
-                      <JobItem properties={property} key={property.id} />
+                    <div className="one-slide" key={job.id}>
+                      <JobItem jobs={job} key={job.id} />
                     </div>
                   );
                 })}
@@ -102,10 +93,10 @@ const JobSlide = () => {
 
                 // infiniteLoop={true}
               >
-                {properties.map((property) => {
+                {jobs.map((job) => {
                   return (
                     <div className="one-slide">
-                      <JobItem properties={property} key={property.id} />
+                      <JobItem jobs={job} key={job.id} />
                     </div>
                   );
                 })}

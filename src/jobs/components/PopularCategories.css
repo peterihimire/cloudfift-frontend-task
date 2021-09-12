@@ -1,22 +1,22 @@
-.home-how {
+.popular {
   padding: 4rem 0;
 }
 .home-how-title {
   width: 100%;
 }
-.home-how-title h4 {
+.popular-title h4 {
   font-size: var(--medium-font);
   color: var(--dark-grey);
   text-transform: capitalize;
 }
-.home-how-content-logo {
+.popular-content-logo {
   margin: 4rem 0 0 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-row-gap: 3rem;
   grid-column-gap: 3rem;
 }
-.home-how-content {
+.popular-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,34 +24,34 @@
   padding: 0 2rem;
   margin: 0 0 2rem 0;
 }
-.home-how-content {
+.popular-content {
   text-align: center;
 }
-.home-how-logo {
+.popular-logo {
   padding: 2rem;
   background-color: var(--lite-green);
   border-radius: 4px;
 }
-.home-how-icon {
+.popular-icon {
   color: var(--main-white);
   font-size: 5rem;
 }
-.home-how-text {
+.popular-text {
   margin: 2rem 0 0 0;
 }
-.home-how-text h5 {
+.popular-text h5 {
   text-transform: uppercase;
   color: var(--dark-grey);
   font-size: var(--xsmall-font);
   padding: 0 0 1rem 0;
 }
 
-/* TABLET */
+/***** TABLET *****/
 @media screen and (min-width: 768px) {
-  .home-how-title {
+  .popular-title {
     width: 600px;
   }
-  .home-how-content {
+  .popular-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,16 +59,16 @@
     padding: 0 4rem;
     margin: 0 0 2rem 0;
   }
-  .home-how-text {
+  .popular-text {
     margin: 2rem 0 0 0;
   }
 }
-/* LAPTOP */
+/***** LAPTOP *****/
 @media (min-width: 993px) {
-  .home-how-title {
+  .popular-title {
     width: 600px;
   }
-  .home-how-text {
+  .popular-text {
     margin: 2rem 0 0 0;
   }
 }

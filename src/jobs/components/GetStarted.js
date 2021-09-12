@@ -4,7 +4,7 @@ import "./GetStarted.css";
 
 const GetStarted = () => {
   return (
-    <div className="image-container-lady">
+    <div className="get-started-container">
       {/* <img src={LadySmile} alt="image" /> */}
     </div>
   );

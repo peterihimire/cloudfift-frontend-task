@@ -8,13 +8,13 @@ const TestimonyItem = (props) => {
   console.log(testimonials);
   return (
     // <Card className="testimonials-card">
-      <div className="testimonials-content">
-        <div className="testimonials-img">
+      <div className="testimony-content">
+        <div className="testimony-img">
           <img src={testimonials.image} alt="people" />
         </div>
-        <div className="testimonials-content-text">
+        <div className="testimony-content-text">
           <p>{testimonials.testimony}</p>
-          <div className="testimonials-b">
+          <div className="testimony-b">
             <b>{testimonials.name}</b>
           </div>
         </div>

@@ -4,9 +4,9 @@ import homeImg from "../../assets/group-of-companies.svg";
 
 const CompaniesNetwork = () => {
   return (
-    <div className="group-about">
-      <div className="group-about-content">
-        <div className="home-about-text-container">
+    <div className="companies-network">
+      <div className="companies-network-content">
+        <div className="companies-network-text-container">
           <p>
             When the time to invest on home comes dont fail to invest with
             bnk-homes and real-estate. we offer competitive home price offer and
@@ -23,7 +23,7 @@ const CompaniesNetwork = () => {
             <button className="btn btn-bigger">learn more</button>
           </div>
         </div>
-        <div className="home-about-img-container">
+        <div className="companies-network-img-container">
           <img src={homeImg} alt="home-img" />
         </div>
       </div>
