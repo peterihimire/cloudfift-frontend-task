@@ -38,7 +38,6 @@
 .banner-img-div img {
   width: 100%;
 }
-
 .banner-left h1 {
   font-size: var(--medium-font);
   text-align: center;
@@ -46,6 +45,7 @@
 .banner-left p {
   padding: 1rem 0 2rem 0;
   line-height: var(--line-height);
+  text-align: center;
 }
 form {
   border-radius: 50px;
@@ -151,6 +151,11 @@ input::placeholder {
     font-size: var(--medium-font);
     text-align: center;
   }
+  .banner-left p {
+    padding: 1rem 0 2rem 0;
+    line-height: var(--line-height);
+    text-align: center;
+  }
 }
 /***** LAPTOP *****/
 
@@ -178,6 +183,11 @@ input::placeholder {
   }
   .banner-left h1 {
     font-size: 5rem;
+    text-align: left;
+  }
+  .banner-left p {
+    padding: 1rem 0 2rem 0;
+    line-height: var(--line-height);
     text-align: left;
   }
   .banner-left {
