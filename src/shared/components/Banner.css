@@ -16,7 +16,7 @@
   margin: 0 2rem 0 0;
 }
 .trusted-companies img {
-  width: 100px;
+  width: 100%;
 }
 .banner-content {
   padding: 10rem 0 0 0rem;
@@ -41,6 +41,7 @@
 
 .banner-left h1 {
   font-size: var(--medium-font);
+  text-align: center;
 }
 .banner-left p {
   padding: 1rem 0 2rem 0;
@@ -146,6 +147,10 @@ input::placeholder {
   .form-div {
     margin: 0rem 0 0rem 0;
   }
+  .banner-left h1 {
+    font-size: var(--medium-font);
+    text-align: center;
+  }
 }
 /***** LAPTOP *****/
 
@@ -173,6 +178,7 @@ input::placeholder {
   }
   .banner-left h1 {
     font-size: 5rem;
+    text-align: left;
   }
   .banner-left {
     width: 500px;
