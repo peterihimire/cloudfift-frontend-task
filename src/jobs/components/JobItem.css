@@ -17,6 +17,7 @@
   background-color: var(--lite-grey);
   border-radius: 50px;
   color: var(--main-grey);
+  font-size: 12px;
 }
 .job-item-upper {
   border-bottom: solid 0.5px var(--sec-grey);
@@ -57,6 +58,11 @@
   color: var(--dark-green);
   text-decoration: none;
   font-size: var(--xsmall-font);
+}
+.job-apply-link:hover {
+  background-color: var(--lite-green);
+  padding: 0.7rem 2rem;
+  border-radius: 50px;
 }
 .location-icon-text {
   display: flex;
