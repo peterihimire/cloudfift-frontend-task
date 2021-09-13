@@ -30,6 +30,21 @@
 .testimony-main-div {
   position: static;
 }
+/***** FOR THE IMAGE RING, CLASHING *****/
+
+/* .testimony-img-container {
+  border: solid 0.2rem var(--dark-green);
+  position: relative;
+  height: 350px;
+  top: 20px;
+  border-radius: 30px;
+  margin: 0 0 2rem 0;
+}
+.testimony-img-container img {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+} */
 
 .testimony-main-text {
   width: 100% !important;

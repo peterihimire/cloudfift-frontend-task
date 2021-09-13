@@ -1,7 +1,5 @@
 .job-item-img {
   width: 50px;
-  /* height: 100px; */
-  /* margin: 0 auto; */
 }
 .job-item-img img {
   width: 100%;
@@ -27,7 +25,6 @@
   align-items: center;
   justify-content: center;
   height: 180px;
-  /* padding: 2rem; */
 }
 .job-item-upper b {
   text-transform: capitalize;
@@ -46,11 +43,9 @@
 }
 /* NEWLY ADDED */
 .job {
-  /* padding: 1rem; */
   position: relative;
   overflow: hidden;
   height: 360px;
-  /* width: 300px; */
 }
 .job-item-action {
   display: flex;

@@ -11,7 +11,9 @@ const TestimonyItem = (props) => {
     <>
       <div className="testimony-content ">
         <div className="testimony-img ">
-          <img src={testimonials.image} alt="people" />
+          <div className="testimony-img-container">
+            <img src={testimonials.image} alt="people" />
+          </div>
         </div>
         <div className="testimony-content-text">
           <div className="quote-div">

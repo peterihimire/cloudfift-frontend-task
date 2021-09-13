@@ -142,9 +142,6 @@ footer {
     grid-row-gap: 2rem;
     grid-column-gap: 1.5rem;
   }
-  .footer-one-one {
-    /* width: 400px; */
-  }
   .footer-one-two {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
