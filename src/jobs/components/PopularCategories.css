@@ -1,5 +1,5 @@
 .popular {
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
 }
 .home-how-title {
   width: 100%;
@@ -67,6 +67,9 @@
 }
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
+  .popular {
+    margin-bottom: 15rem;
+  }
   .popular-title {
     width: 600px;
   }
@@ -84,6 +87,9 @@
 }
 /***** LAPTOP *****/
 @media (min-width: 993px) {
+  .popular {
+    margin-bottom: 15rem;
+  }
   .popular-title {
     width: 600px;
   }

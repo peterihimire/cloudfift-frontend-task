@@ -1,20 +1,11 @@
 .companies-network {
-  /* margin-bottom: 15rem; */
-  /* background: var(--lite-green) !important; */
-  /* background-color: rgba(6, 148, 2, 0.05); */
   padding: 10rem 0;
 }
-
 .companies-network-content {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-row-gap: 2rem;
-  grid-column-gap: 4rem; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background: var(--lite-green) !important; */
 }
 .companies-network-img-container {
   width: 100%;
@@ -23,11 +14,8 @@
   width: 100%;
   border-radius: 25px;
 }
-
 .companies-network-text-container {
   width: 100%;
-  /* margin: 2rem 0 0 0rem; */
-  /* text-align: center; */
 }
 .companies-network-text-container .title {
   margin: 0 0 3rem 0;
@@ -39,7 +27,7 @@
 .companies-network-title {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
+
   align-items: center;
   text-align: center;
   width: 100%;
@@ -100,7 +88,7 @@
   .companies-network-title {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+
     align-items: center;
     text-align: center;
     width: 400px;

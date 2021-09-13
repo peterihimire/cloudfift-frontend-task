@@ -1,5 +1,5 @@
 .testimonials {
-  margin: 15rem 0;
+  margin: 5rem 0;
 }
 .testimonials-head {
   text-align: center;
@@ -31,6 +31,9 @@
 
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
+  .testimonials {
+    margin: 15rem 0;
+  }
   .testimonials-head {
     text-align: center;
     width: 400px;
@@ -49,6 +52,9 @@
 }
 /***** LAPTOP *****/
 @media (min-width: 993px) {
+  .testimonials {
+    margin: 15rem 0;
+  }
   .testimonials-head {
     text-align: center;
     width: 500px;

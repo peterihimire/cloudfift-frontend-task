@@ -3,7 +3,8 @@ import "./JobSlide.css";
 import ItemsCarousel from "react-items-carousel";
 import JobItem from "./JobItem";
 import jobs from "../../job-items";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import arrowLeft from "../../assets/arrow-left.svg";
+import arrowRight from "../../assets/arrow-right.svg";
 
 const JobSlide = () => {
   console.log(jobs);
@@ -24,12 +25,12 @@ const JobSlide = () => {
                 outsideChevron={false}
                 leftChevron={
                   <button className="chev-btn">
-                    {<FaChevronLeft className="arrow-icon" />}
+                    <img src={arrowLeft} alt="" />
                   </button>
                 }
                 rightChevron={
                   <button className="chev-btn">
-                    {<FaChevronRight className="arrow-icon" />}
+                    <img src={arrowRight} alt="" />
                   </button>
                 }
                 chevronWidth={chevronWidth}
@@ -63,7 +64,7 @@ const JobSlide = () => {
                 outsideChevron={true}
                 chevronWidth={chevronWidth}
                 showSlither={true}
-
+                firstAndLastGutter={true}
                 // infiniteLoop={true}
               >
                 {jobs.map((job) => {
@@ -85,12 +86,12 @@ const JobSlide = () => {
                 requestToChangeActive={setActiveItemIndex}
                 activeItemIndex={activeItemIndex}
                 numberOfCards={1}
-                gutter={20}
+                gutter={10}
                 freeScrolling={true}
                 outsideChevron={true}
                 chevronWidth={chevronWidth}
                 showSlither={true}
-
+                firstAndLastGutter={true}
                 // infiniteLoop={true}
               >
                 {jobs.map((job) => {

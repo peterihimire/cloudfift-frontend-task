@@ -16,6 +16,8 @@
 }
 .testimony-name p {
   font-weight: bolder;
+  font-family: var(--font-reg);
+  font-size: 17px !important;
 }
 .testimony-content-text {
   padding: 0 0rem 0rem 0rem;

@@ -17,7 +17,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">register</p>
+            <p className="popular-head">Oil and Gas</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -26,7 +26,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">create property</p>
+            <p className="popular-head">Education</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">search property</p>
+            <p className="popular-head">Health Care</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -44,7 +44,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">register</p>
+            <p className="popular-head">Accounting</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -53,7 +53,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">create property</p>
+            <p className="popular-head">Technology</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -62,7 +62,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">search property</p>
+            <p className="popular-head">Security</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">register</p>
+            <p className="popular-head">Data Analysis</p>
             <p>(10 new jobs)</p>
           </div>
         </div>
@@ -80,7 +80,7 @@ const PopularCategories = () => {
             <img src={oilIcon} alt="" />
           </div>
           <div className="popular-text">
-            <p className="popular-head">create property</p>
+            <p className="popular-head">Design, Art and Multimedia</p>
             <p>(10 new jobs)</p>
           </div>
         </div>

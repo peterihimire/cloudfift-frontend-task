@@ -27,6 +27,7 @@
 }
 .banner-left {
   width: 100%;
+  margin: 2rem 0 0 0;
 }
 .banner-left span {
   color: var(--dark-green);
@@ -72,11 +73,11 @@ form {
 
 .input-with-icon input[type="text"] {
   padding-left: 45px;
-  width: 150px;
+  width: 110px;
 }
 .input-no-icon input[type="text"] {
   padding: 1.5rem 2rem;
-  width: 90px;
+  width: 150px;
   border-right: none;
   border-radius: 50px 0 0 50px;
 }
@@ -88,9 +89,7 @@ form {
 }
 input[type="text"],
 input[type="email"] {
-  /* padding: 1.5rem 13rem; */
   padding: 1.5rem 0;
-
   border: solid 1px var(--sec-grey);
   color: var(--main-black);
 }
@@ -108,8 +107,7 @@ input::placeholder {
   font-size: 1.5rem !important;
 }
 .form-div {
-  /* margin: 0 5rem 0 0; */
-  margin: 2rem 0 4rem 0;
+  margin: 0rem 0 0rem 0;
 }
 .trusted-companies-div h4 {
   margin: 0 0 2rem 0;
@@ -124,12 +122,14 @@ input::placeholder {
   }
   .banner-left {
     width: 500px;
+    margin: 2rem 0 0 0;
   }
+
   .banner-left span {
     color: var(--dark-green);
   }
   .banner-img-div {
-    width: 600px;
+    width: 400px;
   }
   .input-with-icon input[type="text"] {
     padding-left: 45px;
@@ -143,6 +143,9 @@ input::placeholder {
   }
   .trusted-companies img {
     width: 100%;
+  }
+  .form-div {
+    margin: 0rem 0 0rem 0;
   }
 }
 /***** LAPTOP *****/
@@ -174,6 +177,7 @@ input::placeholder {
   }
   .banner-left {
     width: 500px;
+    margin: 0 0 0 0;
   }
   .banner-left span {
     color: var(--dark-green);
@@ -183,5 +187,8 @@ input::placeholder {
   }
   .trusted-companies img {
     width: 100%;
+  }
+  .form-div {
+    margin: 2rem 0 4rem 0;
   }
 }

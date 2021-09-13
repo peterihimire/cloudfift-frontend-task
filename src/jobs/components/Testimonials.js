@@ -6,7 +6,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TestimonyItem from "./TestimonyItem";
 import testimonies from "../../testimonial-items";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+// import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
+import arrowLeft from "../../assets/arrow-left.svg";
+import arrowRight from "../../assets/arrow-right.svg";
 
 class Testimonials extends Component {
   constructor(props) {
@@ -25,7 +27,7 @@ class Testimonials extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      autoplay: false,
+      autoplay: true,
       speed: 4000,
       responsive: [
         {
@@ -61,10 +63,12 @@ class Testimonials extends Component {
         <div className="testimonial-slider-container">
           <div className="slick-btn-container" style={{ textAlign: "right" }}>
             <button className="chev-btn testimony-chev" onClick={this.previous}>
-              <FaChevronLeft className="arrow-icon" />
+              {/* <FaChevronLeft className="arrow-icon" /> */}
+              <img src={arrowLeft} alt="" />
             </button>
             <button className="chev-btn testimony-chev" onClick={this.next}>
-              <FaChevronRight className="arrow-icon" />
+              {/* <FaChevronRight className="arrow-icon" /> */}
+              <img src={arrowRight} alt="" />
             </button>
           </div>
           <Slider ref={(c) => (this.slider = c)} {...settings}>

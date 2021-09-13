@@ -1,5 +1,5 @@
 .recommended {
-  margin: 5rem 0 15rem 0;
+  margin: 5rem 0 5rem 0;
 }
 
 .items-conte {
@@ -41,6 +41,7 @@
 .recommended-title-container {
   max-width: 117rem;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 .title h4 {
   font-size: var(--medium-font);
@@ -49,6 +50,9 @@
 }
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
+  .recommended {
+    margin: 5rem 0 15rem 0;
+  }
   .recommended-title-container {
     max-width: 117rem;
     margin: 0 auto;
@@ -57,6 +61,9 @@
 }
 /***** LAPTOP *****/
 @media (min-width: 993px) {
+  .recommended {
+    margin: 5rem 0 15rem 0;
+  }
   .recommended-title-container {
     max-width: 117rem;
     margin: 0 auto;

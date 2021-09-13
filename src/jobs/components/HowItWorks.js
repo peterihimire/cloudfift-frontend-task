@@ -24,11 +24,11 @@ const HowItWorks = () => {
 
           <div className="howitworks-item">
             <div className="howitworks-item-title">
-              <div>
+              <div className="green-check-icon">
                 <img src={greenCheck} alt="" />
               </div>
               <div className="">
-                <h5>Search Jobs</h5>
+                <p className="howitworks-head">Search Jobs</p>
               </div>
             </div>
             <p>
@@ -39,11 +39,13 @@ const HowItWorks = () => {
           </div>
           <div className="howitworks-item">
             <div className="howitworks-item-title">
-              <div>
+              <div className="green-check-icon">
                 <img src={greenCheck} alt="" />
               </div>
               <div className="">
-                <h5>Create a Profile and Get Noticed</h5>
+                <p className="howitworks-head">
+                  Create a Profile and Get Noticed
+                </p>
               </div>
             </div>
             <p>
@@ -54,11 +56,11 @@ const HowItWorks = () => {
           </div>
           <div className="howitworks-item">
             <div className="howitworks-item-title">
-              <div>
+              <div className="green-check-icon">
                 <img src={greenCheck} alt="" />
               </div>
               <div className="">
-                <h5>Apply for jobs</h5>
+                <p className="howitworks-head">Apply for jobs</p>
               </div>
             </div>
             <p>
