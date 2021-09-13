@@ -22,13 +22,17 @@
 .xdplp {
   left: -50px;
 }
-.aoTUt {
-  right: 280px !important;
-}
 
-.dHQcjo {
-  left: 50px !important;
-}
+
+  /* FOR RIGHT */
+  .aoTUt {
+    right: 60px !important;
+  }
+  /* FOR LEFT */
+  .dHQcjo {
+    left: 260px !important;
+  }
+
 .kZZOPs {
   position: absolute;
   height: 100% !important;
@@ -71,12 +75,13 @@
   .xdplp {
     left: -50px;
   }
+  /* FOR RIGHT */
   .aoTUt {
-    right: 280px !important;
+    right: 80px !important;
   }
-
+  /* FOR LEFT */
   .dHQcjo {
-    left: 1350px !important;
+    left: 640px !important;
   }
   .kZZOPs {
     position: absolute;
@@ -126,10 +131,12 @@
   .xdplp {
     left: -50px;
   }
+  /* FOR RIGHT */
   .aoTUt {
     right: 280px !important;
   }
 
+  /* FOR LEFT */
   .dHQcjo {
     left: 1350px !important;
   }

@@ -61,10 +61,20 @@ const JobSlide = () => {
                 numberOfCards={2}
                 gutter={20}
                 freeScrolling={true}
-                outsideChevron={true}
-                chevronWidth={chevronWidth}
                 showSlither={true}
                 firstAndLastGutter={true}
+                outsideChevron={false}
+                leftChevron={
+                  <button className="chev-btn">
+                    <img src={arrowLeft} alt="" />
+                  </button>
+                }
+                rightChevron={
+                  <button className="chev-btn">
+                    <img src={arrowRight} alt="" />
+                  </button>
+                }
+                chevronWidth={chevronWidth}
                 // infiniteLoop={true}
               >
                 {jobs.map((job) => {
@@ -88,10 +98,20 @@ const JobSlide = () => {
                 numberOfCards={1}
                 gutter={10}
                 freeScrolling={true}
-                outsideChevron={true}
-                chevronWidth={chevronWidth}
                 showSlither={true}
                 firstAndLastGutter={true}
+                outsideChevron={false}
+                leftChevron={
+                  <button className="chev-btn">
+                    <img src={arrowLeft} alt="" />
+                  </button>
+                }
+                rightChevron={
+                  <button className="chev-btn">
+                    <img src={arrowRight} alt="" />
+                  </button>
+                }
+                chevronWidth={chevronWidth}
                 // infiniteLoop={true}
               >
                 {jobs.map((job) => {
