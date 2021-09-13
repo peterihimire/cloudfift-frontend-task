@@ -1,11 +1,5 @@
 .recommended {
-  margin: 15rem 0 5rem 0;
-}
-
-.items-conte {
-  width: 90%;
-  height: 200px;
-  background-color: aqua;
+  margin: 25rem 0 5rem 0;
 }
 .recommended h4 {
   color: var(--primary-color);
