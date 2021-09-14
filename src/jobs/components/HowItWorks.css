@@ -27,6 +27,7 @@
 }
 .how-it-works-img-container {
   width: 100%;
+  flex-shrink: 0;
 }
 .how-it-works-img-container img {
   width: 100%;
@@ -34,7 +35,7 @@
 }
 .top-workers-img {
   /* flex-shrink: 0; */
-  max-width: none;
+  /* max-width: none; */
 }
 .how-it-works-text-container {
   width: 100%;
