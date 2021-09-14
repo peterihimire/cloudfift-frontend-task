@@ -44,7 +44,7 @@
 /***** TABLET *****/
 @media screen and (min-width: 768px) {
   .recommended {
-    margin: 5rem 0 15rem 0;
+    margin: 10rem 0 15rem 0;
   }
   .recommended-title-container {
     max-width: 117rem;
@@ -55,7 +55,7 @@
 /***** LAPTOP *****/
 @media (min-width: 993px) {
   .recommended {
-    margin: 5rem 0 15rem 0;
+    margin: 10rem 0 15rem 0;
   }
   .recommended-title-container {
     max-width: 117rem;
