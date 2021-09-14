@@ -27,7 +27,8 @@
 }
 .how-it-works-img-container {
   width: 100%;
-  flex-shrink: 0;
+  max-width: none;
+  /* flex-shrink: 0; */
 }
 .how-it-works-img-container img {
   width: 100%;
