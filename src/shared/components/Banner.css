@@ -4,7 +4,11 @@
   min-height: 600px;
   padding-top: 0;
   background: url("../../assets/banner-transparent-green.svg") no-repeat;
-  object-fit: none;
+  /* object-fit: contain; */
+  /* background-origin: border-box; */
+  /* background-position: center; */
+  /* MADE SURE THE IMAGE IS CONTAINED IN THE SUPPLIED CONTAINER HEIGHT */
+  background-size: contain;
   padding: 0 2rem;
   color: var(--main-black);
 }
