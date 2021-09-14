@@ -1,5 +1,5 @@
 .how-it-works {
-  margin-bottom: 5rem;
+  margin: 15rem 0 10rem 0;
 }
 .howitworks-item-title {
   display: flex;
@@ -20,10 +20,9 @@
   line-height: var(--line-height);
 }
 .how-it-works-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
 }
 .how-it-works-img-container {
   width: 100%;
@@ -34,12 +33,9 @@
   width: 100%;
   border-radius: 25px;
 }
-.top-workers-img {
-  /* flex-shrink: 0; */
-  /* max-width: none; */
-}
+
 .how-it-works-text-container {
-  width: 100%;
+  /* width: 100%; */
 }
 .how-it-works-text-container p {
   padding: 0 0 0rem 0;
@@ -81,8 +77,16 @@
     margin-bottom: 15rem;
   }
   .how-it-works-content {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 60.5% 38%;
+    grid-row-gap: 2rem;
+    grid-column-gap: 1.5rem;
+    align-items: center;
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 20px; */
   }
   .how-it-works-img-container {
     width: 100%;
@@ -93,10 +97,10 @@
   }
 
   .how-it-works-text-container {
-    margin: 0 0 0 4rem;
+    /* margin: 0 0 0 4rem; */
   }
   .how-it-works-text-container {
-    width: 650px;
+    /* width: 650px; */
   }
   .howitworks-item-title {
     display: flex;
@@ -110,8 +114,12 @@
     margin-bottom: 15rem;
   }
   .how-it-works-content {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 61.5% 35%;
+    grid-row-gap: 2rem;
+    grid-column-gap: 3.5rem;
   }
   .how-it-works-img-container {
     width: 100%;
@@ -121,7 +129,7 @@
     border-radius: 25px;
   }
   .how-it-works-text-container {
-    margin: 0 0 0 4rem;
+    /* margin: 0 0 0 4rem; */
   }
   .how-it-works-title {
     display: flex;
@@ -132,7 +140,7 @@
     margin: 0 auto 4rem auto;
   }
   .how-it-works-text-container {
-    width: 650px;
+    /* width: 650px; */
   }
   .howitworks-item-title {
     display: flex;
