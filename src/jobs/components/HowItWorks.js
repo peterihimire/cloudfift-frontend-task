@@ -1,6 +1,6 @@
 import React from "react";
 import "./HowItWorks.css";
-import homeImg from "../../assets/top-workers.svg";
+import topWorkersImg from "../../assets/top-workers.svg";
 import greenCheck from "../../assets/greencheck-round.svg";
 
 const HowItWorks = () => {
@@ -8,7 +8,7 @@ const HowItWorks = () => {
     <div className="how-it-works">
       <div className="how-it-works-content">
         <div className="how-it-works-img-container">
-          <img src={homeImg} alt="home-img" />
+          <img src={topWorkersImg} alt="home-img" className='top-workers-img' />
         </div>
         <div className="how-it-works-text-container">
           <div className="how-it-works-heading">

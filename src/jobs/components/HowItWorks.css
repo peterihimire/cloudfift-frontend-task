@@ -32,6 +32,9 @@
   width: 100%;
   border-radius: 25px;
 }
+.top-workers-img{
+  flex-shrink: 0;
+}
 .how-it-works-text-container {
   width: 100%;
 }
