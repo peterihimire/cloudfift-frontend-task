@@ -32,6 +32,9 @@
 .how-it-works-img-container img {
   width: 100%;
   border-radius: 25px;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 .how-it-works-text-container {
@@ -94,6 +97,9 @@
   .how-it-works-img-container img {
     width: 100%;
     border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
 
   .how-it-works-text-container {
@@ -127,6 +133,9 @@
   .how-it-works-img-container img {
     width: 100%;
     border-radius: 25px;
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
   .how-it-works-text-container {
     /* margin: 0 0 0 4rem; */

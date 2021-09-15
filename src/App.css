@@ -11,10 +11,10 @@
 }
 /****** MAKES SURE CONTENT DONT LAP AGAINST CONTAINER WALL ******/
 .main-content {
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 .companies-network-main-content {
-  padding: 0 3rem;
+  padding: 0 2rem;
   background-color: var(--xlite-green);
 }
 /****** MAKES SURE APP DONT TAKE UP THE CONTAINER FULL WIDTH ******/
@@ -28,5 +28,5 @@ footer {
   bottom: 0;
   width: 100%;
   height: 216px; /*Footer height*/
-  padding: 0 3rem;
+  padding: 0 2rem;
 }

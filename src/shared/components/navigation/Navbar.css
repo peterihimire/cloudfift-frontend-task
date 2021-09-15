@@ -6,7 +6,7 @@
   background-color: var(--main-white);
   color: var(--main-white);
   z-index: 3;
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 .navbar-main {
   display: flex;
