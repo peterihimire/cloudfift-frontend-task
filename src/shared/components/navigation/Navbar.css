@@ -43,7 +43,7 @@
     background-color: var(--main-white);
     color: var(--main-white);
     z-index: 3;
-    padding: 0 2rem;
+    padding: 0 6rem;
   }
   .navbar-logo img {
     width: 100%;
